@@ -1,0 +1,40 @@
+EspROSso or micROSpeed
+
+Using 
+ ROS domain id = 1 
+ #include <geometry_msgs/msg/twist.h> 
+ #include <rclc/rclc.h>
+
+Need 2 nodes
+on pc; 
+ node:teleop_twist_keyboard --> get input and publish /<npr. mcu1>/cmd_vel ({linear.x: 0.0, angular.z: 0.0})
+ // remap arg if not default /cmd_vel topic else just needs to be installed
+
+on pc;
+ micro_ros_agent--> acts as a translator/bridge between ros's sdd and microRos's XRCE-DDS 
+
+on mcu;
+ node:esp32_car.c --> microRos to subscribe and get /<npr. mcu1>/cmd_vel 
+ with rclc_executor to trigger callback to to calculate pwm based on x and y 
+ to set_servo/motor_pwm
+ Also needs to contain microros connect logic to agent
+
+
+simple commands: 
+ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+    docker pull microros/micro-ros-agent:humble
+    docker run -it --net=host microros/micro-ros-agent:humble udp4 --port 8888
+
+ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/mcu1/cmd_vel 
+     //or just ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+
+if we want to
+ modify the teleop_twist_keyboard Python code to change the key mappings
+ custom ROS node on the PC (controller)
+ custom message type
+    colcon build --symlink-install
+    source install/setup.bash 
+
+implement later:services for response
+ 
