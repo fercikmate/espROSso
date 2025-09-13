@@ -1,0 +1,54 @@
+EspROSso guide
+
+Using 
+ 
+ #include <geometry_msgs/msg/twist.h> 
+ #include <rclc/rclc.h>
+ platformio(?) to flash software to mcu
+ humble
+
+on pc; 
+ node:teleop_twist_keyboard --> get input and publish /cmd_vel ({linear.x: 0.0, angular.z: 0.0})
+   run: ros2 run teleop_twist_keyboard teleop_twist_keyboard
+   // remap arg if not default /cmd_vel topic else just needs to be installed
+
+
+ micro_ros_agent--> acts as a translator/bridge between ros's sdd and microRos's XRCE-DDS 
+   to run: ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+
+on mcu;
+   node:esp32_car.c --> microRos to subscribe and get /cmd_vel 
+   with rclc_executor to trigger callback to to calculate pwm based on x and y 
+   to set_servo/motor_pwm
+   Also needs to contain microros connect logic to agent
+
+
+
+
+
+
+
+
+simple commands: 
+ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+  if not ros2 not humble:
+    docker pull microros/micro-ros-agent:humble
+    docker run -it --net=host microros/micro-ros-agent:humble udp4 --port 8888 --interface 0.0.0.0 //listen to all interfaces
+
+ -ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/mcu1/cmd_vel 
+     //or just- ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ colcon build --symlink-install
+   source install/setup.bash 
+
+
+if we want to
+
+
+implement later:
+   services for response/ simple publish from microros
+   simple cmd to run input node and microros agent
+   modify the teleop_twist_keyboard Python code to change the key mappings -optional
+   custom ROS2 input node on the PC (controller) -optional
+    colcon build --symlink-install
+    source install/setup.bash 
+   ROS domain id = 1 

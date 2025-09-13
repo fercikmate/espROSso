@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/driver",
+		"source" : "/home/fercikmate/.platformio/packages/framework-espidf/components/driver"
+	}
+}
