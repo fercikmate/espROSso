@@ -593,9 +593,9 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.43.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.34.1()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/fercikmate/.platformio/penv/.espidf-5.5.0/bin/python][cfound components: Interpreter ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/fercikmate/.platformio/penv/.espidf-5.5.0/bin/python][cfound components: Interpreter ][v3.10.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -608,7 +608,7 @@ _Python3_Compiler_REASON_FAILURE:INTERNAL=
 _Python3_Development_REASON_FAILURE:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=/home/fercikmate/.platformio/penv/.espidf-5.5.0/bin/python
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;32;64;;;abi3;/usr/lib/python3.12;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.12;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.12/site-packages;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.12/site-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;32;64;;;abi3;/usr/lib/python3.10;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.10;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.10/site-packages;/home/fercikmate/.platformio/penv/.espidf-5.5.0/lib/python3.10/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=2d27ae445cdf89c11f7430a1ad389a63
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=

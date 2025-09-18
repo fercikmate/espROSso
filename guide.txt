@@ -26,7 +26,8 @@ on mcu;
 
 
 
-
+setup for flashing esp32:
+ros2 run micro_ros_setup create_firmware_ws.sh esp32
 
 simple commands: 
  if not ros2 not humble: just degrade ubuntu...

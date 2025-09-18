@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "bootloader",
-    "project_version":    "4bee16e",
+    "project_version":    "1",
     "project_path":       "/home/fercikmate/.platformio/packages/framework-espidf/components/bootloader/subproject",
     "idf_path":           "/home/fercikmate/.platformio/packages/framework-espidf",
     "build_dir":          "/home/fercikmate/ftn/osurv/espROSso/esp32/.pio/build/esp32-c6-devkitc-1/bootloader",
