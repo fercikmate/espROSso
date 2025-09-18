@@ -50,5 +50,4 @@ implement later:
    simple cmd to run input node and microros agent
    modify the teleop_twist_keyboard Python code to change the key mappings -optional
    custom ROS2 input node on the PC (controller) -optional
-    colcon build --symlink-install 
    export ROS_DOMAIN_ID=<your_domain_id>
