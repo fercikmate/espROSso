@@ -29,18 +29,20 @@ on mcu;
 
 
 simple commands: 
- ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
-  if not ros2 not humble:
-    docker pull microros/micro-ros-agent:humble
-    docker run -it --net=host microros/micro-ros-agent:humble udp4 --port 8888 --interface 0.0.0.0 //listen to all interfaces
-
+ if not ros2 not humble: just degrade ubuntu...
+    or use docker
+ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 #if wireless
  -ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/mcu1/cmd_vel 
      //or just- ros2 run teleop_twist_keyboard teleop_twist_keyboard
- colcon build --symlink-install
-   source install/setup.bash 
-docker build -t microros-dev .devcontainer
+ dont forget to source if not in .bashsrc
 
-if we want to
+WSL2
+ shell
+   usbipd wsl list
+   usbipd wsl attach --busid <BUSID>
+ bash
+   ls /dev/ttyUSB* #should be /dev/ttyUSB0 but check
+   ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
 
 
 implement later:
@@ -48,6 +50,5 @@ implement later:
    simple cmd to run input node and microros agent
    modify the teleop_twist_keyboard Python code to change the key mappings -optional
    custom ROS2 input node on the PC (controller) -optional
-    colcon build --symlink-install
-    source install/setup.bash 
-   ROS domain id = 1 
+    colcon build --symlink-install 
+   export ROS_DOMAIN_ID=<your_domain_id>
