@@ -1,0 +1,36 @@
+[3.176s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data
+[3.463s] /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.463s]   warnings.warn(msg)
+[3.546s] running egg_info
+[3.557s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[3.557s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[3.558s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[3.559s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[3.559s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[3.560s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.588s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.589s] adding license file 'LICENSE'
+[3.591s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[3.592s] running build
+[3.592s] running build_py
+[3.592s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.595s] copying sensor_msgs_py/point_cloud2.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.596s] copying sensor_msgs_py/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.596s] copying sensor_msgs_py/numpy_compat.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[3.597s] running install
+[3.604s] running install_lib
+[3.614s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[3.615s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[3.615s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[3.615s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py
+[3.617s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-310.pyc
+[3.621s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-310.pyc
+[3.621s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-310.pyc
+[3.622s] running install_data
+[3.622s] copying resource/sensor_msgs_py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[3.623s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/sensor_msgs_py
+[3.623s] running install_egg_info
+[3.636s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.9.0-py3.10.egg-info
+[3.638s] running install_scripts
+[3.711s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[3.758s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data

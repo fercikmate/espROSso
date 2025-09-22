@@ -1,0 +1,63 @@
+[3.193s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/tracetools/tracetools_trace': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed install_data
+[3.540s] /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.540s]   warnings.warn(msg)
+[3.622s] running egg_info
+[3.637s] creating ../../../build/tracetools_trace/tracetools_trace.egg-info
+[3.642s] writing ../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+[3.643s] writing dependency_links to ../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+[3.643s] writing entry points to ../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+[3.643s] writing requirements to ../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+[3.643s] writing top-level names to ../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+[3.643s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.682s] reading manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.691s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.695s] running build
+[3.695s] running build_py
+[3.697s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.703s] copying tracetools_trace/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.703s] copying tracetools_trace/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.703s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.704s] copying tracetools_trace/tools/signals.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.704s] copying tracetools_trace/tools/lttng_impl.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.707s] copying tracetools_trace/tools/tracepoints.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.710s] copying tracetools_trace/tools/lttng_stub.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.714s] copying tracetools_trace/tools/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.716s] copying tracetools_trace/tools/args.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.716s] copying tracetools_trace/tools/names.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.719s] copying tracetools_trace/tools/lttng.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.724s] copying tracetools_trace/tools/path.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.729s] running install
+[3.742s] running install_lib
+[3.758s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.761s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.761s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.762s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/signals.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.762s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_impl.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.762s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/tracepoints.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.762s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_stub.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/args.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/names.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/path.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.769s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/trace.py to trace.cpython-310.pyc
+[3.771s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/signals.py to signals.cpython-310.pyc
+[3.774s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_impl.py to lttng_impl.cpython-310.pyc
+[3.782s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/tracepoints.py to tracepoints.cpython-310.pyc
+[3.787s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_stub.py to lttng_stub.cpython-310.pyc
+[3.788s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/__init__.py to __init__.cpython-310.pyc
+[3.788s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/args.py to args.cpython-310.pyc
+[3.789s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/names.py to names.cpython-310.pyc
+[3.791s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng.py to lttng.cpython-310.pyc
+[3.794s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/path.py to path.cpython-310.pyc
+[3.796s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/__init__.py to __init__.cpython-310.pyc
+[3.799s] running install_data
+[3.800s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/tracetools_trace
+[3.801s] copying resource/tracetools_trace -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[3.801s] running install_egg_info
+[3.852s] Copying ../../../build/tracetools_trace/tracetools_trace.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info
+[3.859s] running install_scripts
+[4.040s] Installing trace script to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/bin
+[4.043s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/install.log'
+[4.189s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/tracetools/tracetools_trace' returned '0': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed install_data

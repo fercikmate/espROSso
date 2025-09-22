@@ -1,0 +1,41 @@
+[1.435s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pycodestyle': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data
+[1.710s] running egg_info
+[1.710s] creating ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[1.718s] writing ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[1.719s] writing dependency_links to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[1.720s] writing entry points to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[1.721s] writing requirements to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[1.721s] writing top-level names to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[1.721s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.738s] reading manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.740s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.740s] running build
+[1.741s] running build_py
+[1.742s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build
+[1.742s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib
+[1.743s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.743s] copying ament_pycodestyle/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.744s] copying ament_pycodestyle/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.745s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.746s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.746s] running install
+[1.753s] running install_lib
+[1.761s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.763s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.763s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.764s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.764s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.765s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+[1.768s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+[1.768s] running install_data
+[1.769s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_pycodestyle
+[1.769s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index
+[1.771s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index
+[1.771s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[1.773s] copying resource/ament_pycodestyle -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[1.773s] running install_egg_info
+[1.782s] Copying ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle-0.12.14-py3.10.egg-info
+[1.783s] running install_scripts
+[1.846s] Installing ament_pycodestyle script to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/bin
+[1.848s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/install.log'
+[1.960s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data

@@ -1,0 +1,40 @@
+[1.798s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_lint PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data
+[2.832s] running egg_info
+[2.834s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[2.834s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[2.835s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[2.835s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[2.839s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[2.844s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[2.845s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[2.845s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[2.845s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[2.845s] running build
+[2.845s] running build_py
+[2.846s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build
+[2.846s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib
+[2.846s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[2.846s] copying ament_pep257/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[2.847s] copying ament_pep257/pytest_marker.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[2.847s] copying ament_pep257/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[2.847s] running install
+[2.848s] running install_lib
+[2.848s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[2.848s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[2.848s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[2.849s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[2.849s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/main.py to main.cpython-310.pyc
+[2.849s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.850s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/__init__.py to __init__.cpython-310.pyc
+[2.850s] running install_data
+[2.850s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[2.851s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/share/ament_index
+[2.851s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[2.851s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[2.851s] copying resource/ament_pep257 -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[2.852s] running install_egg_info
+[2.853s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257-0.12.14-py3.10.egg-info
+[2.853s] running install_scripts
+[2.853s] Installing ament_pep257 script to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/bin
+[2.854s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/install.log'
+[2.857s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_lint PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data

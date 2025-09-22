@@ -1,0 +1,460 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "librcl_logging_noop.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"project",
+			"target_compile_definitions",
+			"find_package",
+			"include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake",
+			"/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 124,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 7
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address -mlongcalls -Wno-frame-address -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "LWIP_IPV4"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LWIP_IPV6"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "RCL_LOGGING_INTERFACE_BUILDING_DLL"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ROS_PACKAGE_NAME=\"rcl_logging_noop\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/freertos_apps/microros_esp32_extensions/build/config"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/protocomm/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/pthread/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/coap/port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/coap/libcoap/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/unity/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/asio/port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/asio/asio/asio/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/app_update/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/test/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/jsmn/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_eth/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/spiffs/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/ulp/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mdns/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freemodbus/modbus/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/expat/port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/openssl/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_local_ctrl/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include/compat/posix"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rcutils"
+				},
+				{
+					"backtrace" : 17,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rcl_logging_interface"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "rcl_logging_noop::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install"
+		}
+	},
+	"name" : "rcl_logging_noop",
+	"nameOnDisk" : "librcl_logging_noop.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rcl_logging_noop/rcl_logging_noop.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

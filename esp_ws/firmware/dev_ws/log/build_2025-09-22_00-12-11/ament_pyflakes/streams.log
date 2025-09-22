@@ -1,0 +1,37 @@
+[0.996s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data
+[2.467s] running egg_info
+[2.467s] creating ../../../build/ament_pyflakes/ament_pyflakes.egg-info
+[2.467s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[2.468s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[2.468s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[2.468s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[2.468s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[2.469s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.469s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.469s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.469s] running build
+[2.470s] running build_py
+[2.470s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build
+[2.470s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib
+[2.471s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.471s] copying ament_pyflakes/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.471s] copying ament_pyflakes/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[2.471s] running install
+[2.471s] running install_lib
+[2.472s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[2.472s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/main.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[2.472s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[2.473s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/main.py to main.cpython-310.pyc
+[2.473s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/__init__.py to __init__.cpython-310.pyc
+[2.473s] running install_data
+[2.473s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_pyflakes
+[2.474s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index
+[2.474s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index
+[2.474s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[2.475s] copying resource/ament_pyflakes -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[2.475s] running install_egg_info
+[2.475s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes-0.12.14-py3.10.egg-info
+[2.475s] running install_scripts
+[2.475s] Installing ament_pyflakes script to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/bin
+[2.476s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/install.log'
+[2.484s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data

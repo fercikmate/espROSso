@@ -1,0 +1,663 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libshape_msgs__rosidl_typesupport_microxrcedds_c.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"add_dependencies",
+			"add_compile_options",
+			"add_definitions",
+			"project",
+			"find_package",
+			"include_directories",
+			"target_include_directories",
+			"ament_target_dependencies",
+			"target_link_libraries",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake",
+			"/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/dev_ws/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 124,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 21,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"file" : 7,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 15
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 25,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 141,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 141,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 141,
+				"parent" : 25
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 23
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address -mlongcalls -Wno-frame-address -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "LWIP_IPV4"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LWIP_IPV6"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ROS_PACKAGE_NAME=\"shape_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/freertos_apps/microros_esp32_extensions/build/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/protocomm/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/driver/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wear_levelling/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/vfs/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freertos/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/pthread/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/coap/port/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/coap/libcoap/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/tcp_transport/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/unity/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp32/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/asio/port/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/asio/asio/asio/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/app_update/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/test/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/efuse/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/app_trace/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/nvs_flash/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/jsmn/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_eth/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/spiffs/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/ulp/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/mdns/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freemodbus/modbus/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_event/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/expat/port/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/openssl/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/sdmmc/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_local_ctrl/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include/lwip/apps"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include/compat/posix"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rmw"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/std_msgs"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rcutils"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 28,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/rosidl_typesupport_introspection_c"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					29
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "shape_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "shape_msgs__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install"
+		}
+	},
+	"name" : "shape_msgs__rosidl_typesupport_microxrcedds_c",
+	"nameOnDisk" : "libshape_msgs__rosidl_typesupport_microxrcedds_c.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/mesh__type_support_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/mesh__rosidl_typesupport_microxrcedds_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/mesh_triangle__type_support_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_microxrcedds_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/plane__type_support_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/plane__rosidl_typesupport_microxrcedds_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/solid_primitive__type_support_c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_microxrcedds_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/shape_msgs/rosidl_typesupport_microxrcedds_c/shape_msgs/msg/detail/microxrcedds/mesh__type_support_c.c.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

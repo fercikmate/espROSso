@@ -1,0 +1,8 @@
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/rmw_implementation_cmake_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rmw_implementation_cmake/CMakeFiles/install/local.dir

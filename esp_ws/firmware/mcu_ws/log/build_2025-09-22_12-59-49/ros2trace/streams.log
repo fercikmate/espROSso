@@ -1,0 +1,43 @@
+[2.531s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
+[3.164s] /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.165s]   warnings.warn(msg)
+[3.355s] running egg_info
+[3.372s] creating ../../../build/ros2trace/ros2trace.egg-info
+[3.373s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[3.375s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[3.376s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[3.376s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[3.377s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[3.378s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[3.419s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[3.424s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[3.425s] running build
+[3.426s] running build_py
+[3.426s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[3.430s] copying ros2trace/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[3.434s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[3.434s] copying ros2trace/command/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[3.435s] copying ros2trace/command/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[3.437s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[3.439s] copying ros2trace/api/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[3.461s] running install
+[3.465s] running install_lib
+[3.484s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[3.485s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[3.485s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[3.486s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[3.486s] creating /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[3.487s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[3.493s] copying /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[3.493s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/trace.py to trace.cpython-310.pyc
+[3.494s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/__init__.py to __init__.cpython-310.pyc
+[3.495s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api/__init__.py to __init__.cpython-310.pyc
+[3.497s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/__init__.py to __init__.cpython-310.pyc
+[3.505s] running install_data
+[3.508s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ros2trace
+[3.508s] copying resource/ros2trace -> /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[3.508s] running install_egg_info
+[3.524s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[3.529s] running install_scripts
+[3.651s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[3.750s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data

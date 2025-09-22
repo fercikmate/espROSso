@@ -1,0 +1,8 @@
+{
+  "package_name": "micro_ros_msgs",
+  "non_idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/micro_ros_msgs:msg/Graph.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/micro_ros_msgs:msg/Node.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/uros/micro_ros_msgs:msg/Entity.msg"
+  ]
+}

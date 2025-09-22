@@ -1,0 +1,8 @@
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/rosidl_typesupport_interface_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_typesupport_interface/CMakeFiles/install/local.dir

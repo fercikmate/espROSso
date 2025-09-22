@@ -1,0 +1,32 @@
+CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj: \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/serialization/xrce_types.c \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/core/type/xrce_types.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/include/uxr/client/defines.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/microxrcedds_client/include/uxr/client/config.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/ucdr/visibility.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/include/ucdr/config.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include/stdint.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/stdint.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_default_types.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/features.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_newlib_version.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_intsup.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_stdint.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include/stdbool.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include/stddef.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/string.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/newlib.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/config.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/ieeefp.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/reent.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/_ansi.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/_types.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/machine/_types.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/lock.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/cdefs.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/xlocale.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/strings.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/toolchain/espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include/sys/string.h

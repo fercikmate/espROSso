@@ -4,7 +4,7 @@ Using
  
  #include <geometry_msgs/msg/twist.h> 
  #include <rclc/rclc.h>
- platformio(?) to flash software to mcu
+ 
  humble
 
 on pc; 
@@ -25,27 +25,50 @@ on mcu;
 
 
 
-
-setup for flashing esp32:
-ros2 run micro_ros_setup create_firmware_ws.sh esp32
+from packages;
+  
 
 simple commands: 
  if not ros2 not humble: just degrade ubuntu...
     or use docker
- ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 #if wireless
+ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 //if wireless
+ ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0 //cable
  -ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/mcu1/cmd_vel 
      //or just- ros2 run teleop_twist_keyboard teleop_twist_keyboard
  dont forget to source if not in .bashsrc
 
+flashing:
+	source ~/esp/esp-idf/export.sh
+
+	idf.py set-target esp32c6
+	idf.py menuconfig
+	# Set your micro-ROS configuration and WiFi credentials under micro-ROS Settings
+	idf.py build
+	idf.py flash
+	idf.py monitor
+
+
 WSL2
  shell
-   usbipd wsl list
-   usbipd wsl attach --busid <BUSID>
+   usbipd list
+   usbipd attach --wsl --busid <BUSID>
  bash
-   ls /dev/ttyUSB* #should be /dev/ttyUSB0 but check
-   ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -v6
+   ls /dev/ttyUSB* or ls /dev/ttyACM*
+   ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888 -v6
 
+Port forward to wsl
+shell
+   New-NetIPAddress -InterfaceAlias "vEthernet (WSL)" -IPAddress 192.168.100.1 -PrefixLength 24
+   New-NetNat -Name "WSL-NAT" -InternalIPInterfaceAddressPrefix 192.168.100.0/24
+   Add-NetNatStaticMapping -NatName "WSL-NAT" -Protocol UDP -ExternalIPAddress 0.0.0.0/0 -ExternalPort 8888 -InternalIPAddress 192.168.100.2 -InternalPort 8888
+   -	ipconfig | findstr "IPv4"
+bash
+   sudo ip route del default via 172.20.240.1 dev eth0
+   sudo ip route add default via 192.168.100.1 dev eth0
+   -	ip route
+   -	ip addr show eth0
 
+wsl -u root ip address add 192.168.100.2/24 dev eth0
 implement later:
    services for response/ simple publish from microros
    simple cmd to run input node and microros agent

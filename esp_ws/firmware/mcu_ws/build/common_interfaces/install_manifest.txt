@@ -1,0 +1,15 @@
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/environment/ament_prefix_path.sh
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/environment/ament_prefix_path.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/environment/path.sh
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/environment/path.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/local_setup.bash
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/local_setup.sh
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/local_setup.zsh
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/local_setup.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/package.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/common_interfaces
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/cmake/common_interfacesConfig.cmake
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/common_interfaces/package.xml

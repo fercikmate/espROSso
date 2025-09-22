@@ -1,0 +1,38 @@
+{
+  "package_name": "lifecycle_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_generator_c/lifecycle_msgs",
+  "template_dir": "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl"
+  ],
+  "target_dependencies": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/State.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/Transition.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionDescription.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionEvent.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/ChangeState.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableStates.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableTransitions.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetState.idl"
+  ]
+}

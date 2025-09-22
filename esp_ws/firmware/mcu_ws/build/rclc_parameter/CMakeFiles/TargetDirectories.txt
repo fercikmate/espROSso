@@ -1,0 +1,10 @@
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/rclc_parameter_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/rclc_parameter.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/install/local.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rclc_parameter/CMakeFiles/install/strip.dir

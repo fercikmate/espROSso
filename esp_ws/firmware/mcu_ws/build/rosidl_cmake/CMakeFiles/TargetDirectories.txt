@@ -1,0 +1,10 @@
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rosidl_cmake_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/install/local.dir
