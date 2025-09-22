@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/CMakeFiles/bootloader
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/CMakeFiles/bootloader.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/CMakeFiles/bootloader-complete.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

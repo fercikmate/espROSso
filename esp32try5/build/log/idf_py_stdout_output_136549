@@ -1,0 +1,17 @@
+Command: ninja all
+[0/2] Re-checking globbed directories...
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader && /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/fercikmate/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/fercikmate/ftn/osurv/espROSso/esp32try5/build/bootloader/bootloader.bin
+Bootloader binary size 0x57e0 bytes. 0x2820 bytes (31%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/esp32try5.c.obj
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating esp-idf/esp_system/ld/sections.ld
+[5/7] Linking CXX executable esp32try5.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.10.0
+Creating esp32c6 image...
+Merged 1 ELF section
+Successfully created esp32c6 image.
+Generated /home/fercikmate/ftn/osurv/espROSso/esp32try5/build/esp32try5.bin
+[7/7] cd /home/fercikmate/ftn/osurv/espROSso/esp32try5/build && /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/fercikmate/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fercikmate/ftn/osurv/espROSso/esp32try5/build/partition_table/partition-table.bin /home/fercikmate/ftn/osurv/espROSso/esp32try5/build/esp32try5.bin
+esp32try5.bin binary size 0xe8c30 bytes. Smallest app partition is 0x100000 bytes. 0x173d0 bytes (9%) free.
