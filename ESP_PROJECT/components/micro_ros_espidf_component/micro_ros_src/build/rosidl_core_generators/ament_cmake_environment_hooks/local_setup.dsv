@@ -1,0 +1,2 @@
+source;share/rosidl_core_generators/environment/ament_prefix_path.sh
+source;share/rosidl_core_generators/environment/path.sh

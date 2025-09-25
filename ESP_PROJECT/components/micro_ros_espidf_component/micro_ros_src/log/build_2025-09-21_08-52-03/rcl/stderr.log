@@ -1,0 +1,111 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:20:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/type_hash.c:15:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/init_options.c: In function 'rcl_init_options_copy':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/init_options.c:114:24: warning: unused variable 'error_string' [-Wunused-variable]
+  114 |     rmw_error_string_t error_string = rmw_get_error_string();
+      |                        ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:22:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c: In function 'rcl_validate_topic_name_with_size':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:58:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+   58 |   if (isdigit(topic_name[0]) != 0) {
+      |               ~~~~~~~~~~^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:84:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+   84 |         isdigit(topic_name[i]) != 0 &&
+      |                 ~~~~~~~~~~^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:179:29: warning: array subscript has type 'char' [-Wchar-subscripts]
+  179 |       if (isdigit(topic_name[i + 1]) != 0) {
+      |                   ~~~~~~~~~~^~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/dynamic_message_type_support.c: In function 'rcl_dynamic_message_type_support_handle_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/dynamic_message_type_support.c:104:28: warning: unused variable 'error_string' [-Wunused-variable]
+  104 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c: In function 'rcl_rmw_implementation_identifier_check':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:140:34: warning: unused variable 'rmw_error_msg' [-Wunused-variable]
+  140 |     const rcutils_error_string_t rmw_error_msg = rcl_get_error_string();
+      |                                  ^~~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '__validate_node_name_and_namespace':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:56:18: warning: unused variable 'msg' [-Wunused-variable]
+   56 |     const char * msg = rmw_namespace_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:68:18: warning: unused variable 'msg' [-Wunused-variable]
+   68 |     const char * msg = rmw_node_name_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c: In function 'rcl_resolve_name':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:49:28: warning: unused variable 'error' [-Wunused-variable]
+   49 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:97:28: warning: unused variable 'error' [-Wunused-variable]
+   97 |     rcutils_error_string_t error = rmw_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:114:28: warning: unused variable 'error' [-Wunused-variable]
+  114 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:33:27: warning: unused parameter 'local_args' [-Wunused-parameter]
+   33 |   const rcl_arguments_t * local_args,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:34:27: warning: unused parameter 'global_args' [-Wunused-parameter]
+   34 |   const rcl_arguments_t * global_args,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:40:8: warning: unused parameter 'only_expand' [-Wunused-parameter]
+   40 |   bool only_expand,
+      |        ^
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '_rcl_wait_for_entities':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:562:28: warning: unused variable 'error' [-Wunused-variable]
+  562 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:596:32: warning: unused variable 'error' [-Wunused-variable]
+  596 |         rcutils_error_string_t error = rcutils_get_error_string();
+      |                                ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '__rcl_get_info_by_topic':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:695:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+  695 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function '__validate_network_flow_endpoint_array':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:38:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+   38 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function 'rcl_publisher_get_network_flow_endpoints':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:70:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+   70 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function 'rcl_subscription_get_network_flow_endpoints':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:101:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+  101 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:156:18: warning: unused variable 'msg' [-Wunused-variable]
+  156 |     const char * msg = rmw_node_name_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:184:18: warning: unused variable 'msg' [-Wunused-variable]
+  184 |     const char * msg = rmw_namespace_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:121:13: warning: variable 'fail_ret' set but not used [-Wunused-but-set-variable]
+  121 |   rcl_ret_t fail_ret = RCL_RET_ERROR;
+      |             ^~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_type_description_service_handle_request':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:532:16: warning: unused parameter 'node' [-Wunused-parameter]
+  532 |   rcl_node_t * node,
+      |   ~~~~~~~~~~~~~^~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:533:28: warning: unused parameter 'request_header' [-Wunused-parameter]
+  533 |   const rmw_request_id_t * request_header,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:534:72: warning: unused parameter 'request' [-Wunused-parameter]
+  534 |   const type_description_interfaces__srv__GetTypeDescription_Request * request,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:535:67: warning: unused parameter 'response' [-Wunused-parameter]
+  535 |   type_description_interfaces__srv__GetTypeDescription_Response * response)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_type_description_service_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:600:19: warning: unused parameter 'service' [-Wunused-parameter]
+  600 |   rcl_service_t * service,
+      |   ~~~~~~~~~~~~~~~~^~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/wait.c:22:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~

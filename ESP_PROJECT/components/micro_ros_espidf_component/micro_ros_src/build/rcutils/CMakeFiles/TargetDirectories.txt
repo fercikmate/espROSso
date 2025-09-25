@@ -1,0 +1,12 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/rcutils_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/ament_cmake_python_copy_rcutils.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/ament_cmake_python_build_rcutils_egg.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/rcutils.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/install/local.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcutils/CMakeFiles/install/strip.dir

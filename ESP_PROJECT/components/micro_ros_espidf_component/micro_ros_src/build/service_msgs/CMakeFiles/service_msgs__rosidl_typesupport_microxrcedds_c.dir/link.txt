@@ -1,0 +1,2 @@
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libservice_msgs__rosidl_typesupport_microxrcedds_c.a CMakeFiles/service_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/service_msgs/msg/detail/microxrcedds/service_event_info__type_support_c.c.obj
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libservice_msgs__rosidl_typesupport_microxrcedds_c.a

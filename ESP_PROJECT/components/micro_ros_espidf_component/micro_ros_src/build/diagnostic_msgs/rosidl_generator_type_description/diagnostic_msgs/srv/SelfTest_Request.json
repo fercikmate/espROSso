@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "diagnostic_msgs/srv/SelfTest_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "diagnostic_msgs/srv/SelfTest_Request",
+      "hash_string": "RIHS01_3bb94b497e74e9beed2dddc7212d3ae596696d30413bd1550fe932fc20efb8a4"
+    }
+  ]
+}

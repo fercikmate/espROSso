@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "visualization_msgs/srv/GetInteractiveMarkers_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "visualization_msgs/srv/GetInteractiveMarkers_Request",
+      "hash_string": "RIHS01_7fa7e0830e3cbe9c15927a29fdc09fedcd9a86757e375f29ce6b0744cb0b6905"
+    }
+  ]
+}

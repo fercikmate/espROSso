@@ -1,0 +1,16 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_index/resource_index/package_run_dependencies/ament_lint_common
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_index/resource_index/parent_prefix_path/ament_lint_common
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/environment/ament_prefix_path.sh
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/environment/ament_prefix_path.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/environment/path.sh
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/environment/path.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/local_setup.bash
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/local_setup.sh
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/local_setup.zsh
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/local_setup.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/package.dsv
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_index/resource_index/packages/ament_lint_common
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_common/share/ament_lint_common/package.xml

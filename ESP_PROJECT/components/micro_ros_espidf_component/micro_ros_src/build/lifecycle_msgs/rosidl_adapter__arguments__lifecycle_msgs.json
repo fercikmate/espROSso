@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

@@ -1,0 +1,32 @@
+gmake[3]: Warning: File 'rosidl_adapter/type_description_interfaces/srv/GetTypeDescription.idl' has modification time 0.2 s in the future
+gmake[3]: warning:  Clock skew detected.  Your build may be incomplete.
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/field__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/type_description__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/key_value__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/individual_type_description__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/srv/detail/microxrcedds/get_type_description__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/field_type__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_typesupport_microxrcedds_c/type_description_interfaces/msg/detail/microxrcedds/type_source__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~

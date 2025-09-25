@@ -1,0 +1,8 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/ament_cmake_uncrustify_uninstall.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/test.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/edit_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/rebuild_cache.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/list_install_components.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/install.dir
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_uncrustify/CMakeFiles/install/local.dir

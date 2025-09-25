@@ -1,0 +1,22 @@
+gmake[1]: Warning: File 'Makefile' has modification time 1.1 s in the future
+gmake[3]: Warning: File 'CMakeFiles/micro_ros_utilities.dir/build.make' has modification time 0.56 s in the future
+gmake[3]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[3]: Warning: File 'CMakeFiles/micro_ros_utilities.dir/build.make' has modification time 0.55 s in the future
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_utilities/src/type_utilities.c:18:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_utilities/src/type_utilities.c: In function 'print_type_info':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_utilities/src/type_utilities.c:96:61: warning: format '%u' expects argument of type 'unsigned int', but argument 7 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   96 |       buffer, sizeof(buffer), "%sIntrospection for %s/%s - %u members, %zu B\n",
+      |                                                            ~^
+      |                                                             |
+      |                                                             unsigned int
+      |                                                            %lu
+......
+  100 |       members->member_count_,
+      |       ~~~~~~~~~~~~~~~~~~~~~~                                 
+      |              |
+      |              uint32_t {aka long unsigned int}
+gmake[3]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.

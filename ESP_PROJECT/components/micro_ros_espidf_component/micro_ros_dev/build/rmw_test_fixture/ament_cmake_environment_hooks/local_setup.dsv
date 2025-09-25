@@ -1,0 +1,2 @@
+source;share/rmw_test_fixture/environment/ament_prefix_path.sh
+source;share/rmw_test_fixture/environment/path.sh

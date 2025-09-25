@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "lifecycle_msgs/srv/ChangeState_Request",
+      "fields": [
+        {
+          "name": "transition",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "lifecycle_msgs/msg/Transition"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "lifecycle_msgs/msg/Transition",
+        "fields": [
+          {
+            "name": "id",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "label",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "lifecycle_msgs/srv/ChangeState_Request",
+      "hash_string": "RIHS01_d74c6f524e14cade7b67e7297190360ed749264af300524fc1456f27cc2a553a"
+    },
+    {
+      "type_name": "lifecycle_msgs/msg/Transition",
+      "hash_string": "RIHS01_c65d7b31ea134cba4f54fc867b817979be799f7452035cd35fac9b7421fb3424"
+    }
+  ]
+}

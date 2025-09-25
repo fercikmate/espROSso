@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rcl_interfaces/srv/GetParameterTypes_Request",
+      "fields": [
+        {
+          "name": "names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rcl_interfaces/srv/GetParameterTypes_Request",
+      "hash_string": "RIHS01_87d7ec5ef545d4daa289d500025d31fb2437bc8b8365ca367161c4dac4be33fd"
+    }
+  ]
+}

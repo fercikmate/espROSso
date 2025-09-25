@@ -1,0 +1,6 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cmake/__init__.py:19: UserWarning: The 'rosidl_cmake' Python module is deprecated. Use 'rosidl_pycommon' instead.
+  warnings.warn(
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c:9:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~

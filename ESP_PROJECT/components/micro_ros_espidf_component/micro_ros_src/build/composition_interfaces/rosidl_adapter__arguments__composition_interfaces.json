@@ -1,0 +1,8 @@
+{
+  "package_name": "composition_interfaces",
+  "non_idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/LoadNode.srv",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/ListNodes.srv",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/UnloadNode.srv"
+  ]
+}

@@ -1,0 +1,34 @@
+[4.514s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/ros2_tracing/tracetools_read': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build install --record /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/install.log --single-version-externally-managed install_data
+[5.836s] running egg_info
+[5.836s] creating ../../../build/tracetools_read/tracetools_read.egg-info
+[5.837s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[5.837s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[5.839s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[5.840s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[5.840s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[5.930s] reading manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[5.934s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[5.936s] running build
+[5.936s] running build_py
+[5.936s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build
+[5.940s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib
+[5.941s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[5.941s] copying tracetools_read/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[5.942s] copying tracetools_read/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[5.944s] copying tracetools_read/py.typed -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[5.946s] running install
+[5.964s] running install_lib
+[6.036s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read
+[6.036s] copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read/trace.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read
+[6.037s] copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read/py.typed -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read
+[6.037s] copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build/lib/tracetools_read/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read
+[6.052s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read/trace.py to trace.cpython-310.pyc
+[6.052s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read/__init__.py to __init__.cpython-310.pyc
+[6.052s] running install_data
+[6.053s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/tracetools_read
+[6.053s] copying resource/tracetools_read -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages
+[6.053s] running install_egg_info
+[6.132s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read-8.6.0-py3.10.egg-info
+[6.150s] running install_scripts
+[6.810s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/install.log'
+[7.112s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/ros2_tracing/tracetools_read' returned '0': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/build install --record /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/tracetools_read/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/example_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/example_interfaces/action/Fibonacci.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Bool.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Byte.json"
+  "rosidl_generator_type_description/example_interfaces/msg/ByteMultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Char.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Empty.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Float32.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Float32MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Float64.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Float64MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int16.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int16MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int32.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int32MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int64.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int64MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int8.json"
+  "rosidl_generator_type_description/example_interfaces/msg/Int8MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/MultiArrayDimension.json"
+  "rosidl_generator_type_description/example_interfaces/msg/MultiArrayLayout.json"
+  "rosidl_generator_type_description/example_interfaces/msg/String.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt16.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt16MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt32.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt32MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt64.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt64MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt8.json"
+  "rosidl_generator_type_description/example_interfaces/msg/UInt8MultiArray.json"
+  "rosidl_generator_type_description/example_interfaces/msg/WString.json"
+  "rosidl_generator_type_description/example_interfaces/srv/AddTwoInts.json"
+  "rosidl_generator_type_description/example_interfaces/srv/SetBool.json"
+  "rosidl_generator_type_description/example_interfaces/srv/Trigger.json"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/example_interfaces__rosidl_generator_type_description.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

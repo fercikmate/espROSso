@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "nav_msgs/srv/LoadMap_Request",
+      "fields": [
+        {
+          "name": "map_url",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "nav_msgs/srv/LoadMap_Request",
+      "hash_string": "RIHS01_0f8fe3aac433c977d7c2f8b57ab1c3a17677e24880d76919b69e4208e99f5132"
+    }
+  ]
+}

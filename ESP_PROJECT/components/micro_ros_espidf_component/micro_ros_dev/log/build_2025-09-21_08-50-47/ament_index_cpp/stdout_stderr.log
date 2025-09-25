@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/gcc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp
+gmake[1]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+gmake[2]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+[ 12%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_package_prefix.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_package_share_directory.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_packages_with_prefixes.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_resource.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_search_paths.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/has_resource.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ament_index_cpp.dir/src/get_resources.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libament_index_cpp.so[0m
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+[100%] Built target ament_index_cpp
+gmake[2]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+gmake[1]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp'
+-- Install configuration: ""
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/library_path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/library_path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index/resource_index/package_run_dependencies/ament_index_cpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index/resource_index/parent_prefix_path/ament_index_cpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/environment/path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/local_setup.bash
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/local_setup.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/local_setup.zsh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/local_setup.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/package.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index/resource_index/packages/ament_index_cpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/export_ament_index_cppExport.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/export_ament_index_cppExport-noconfig.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/ament_index_cppConfig.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/ament_index_cppConfig-version.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/package.xml
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/has_resource.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_resource.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_packages_with_prefixes.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/visibility_control.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_resources.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/include/ament_index_cpp/ament_index_cpp/get_search_paths.hpp
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/lib/libament_index_cpp.so

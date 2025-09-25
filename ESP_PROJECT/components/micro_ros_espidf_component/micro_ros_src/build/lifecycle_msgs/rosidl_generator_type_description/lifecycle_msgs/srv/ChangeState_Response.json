@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "lifecycle_msgs/srv/ChangeState_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "lifecycle_msgs/srv/ChangeState_Response",
+      "hash_string": "RIHS01_e1ddfed0271fefe63767aa71561926e4d9eac0f1ddf9e71a8873eb46b36deac2"
+    }
+  ]
+}

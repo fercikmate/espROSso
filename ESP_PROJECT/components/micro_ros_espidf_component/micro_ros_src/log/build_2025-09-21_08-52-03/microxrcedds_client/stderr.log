@@ -1,0 +1,880 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/util/time.c:3:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/time.h:11:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   11 | #include_next <time.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+/home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    8 | #include_next "lwip/sockets.h"
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+/home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    8 | #include_next "lwip/sockets.h"
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+                 from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+                 from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+                 from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/port/include/arpa/inet.h:10,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+   44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+      |                                                ~~~~^~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+   56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+      |            ^~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+   44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+      |                                                ~~~~^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+  110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                           ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+   56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+      |            ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+  112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+   44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+      |                                                ~~~~^~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+                 from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+   56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+      |            ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+  110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                           ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+  112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+  110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                           ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+  112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+  111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+  113 |         return RV_READ_CSR(CSR_PCCR_USER);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+  128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+  130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+  143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+  150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+  111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+  152 |         RV_WRITE_CSR(utvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+  113 |         return RV_READ_CSR(CSR_PCCR_USER);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+  128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+  130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+  166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+  178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+  187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+  200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+  143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+  366 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+  367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+  368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+  369 |     RV_WRITE_CSR(tdata2, bp_addr);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+  378 |     RV_WRITE_CSR(tselect, wp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+  379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+  111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+  150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+  113 |         return RV_READ_CSR(CSR_PCCR_USER);
+      |                ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+  152 |         RV_WRITE_CSR(utvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+  128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+  130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+  143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+  150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+  152 |         RV_WRITE_CSR(utvec, xtvec_val);
+      |         ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+  380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+  166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+  166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+  178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+  176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+  178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+  187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+  200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                              ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+  187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+  200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+  366 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+  366 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+  367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+  367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+  368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+  368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+  369 |     RV_WRITE_CSR(tdata2, bp_addr);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+  369 |     RV_WRITE_CSR(tdata2, bp_addr);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+  378 |     RV_WRITE_CSR(tselect, wp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+  378 |     RV_WRITE_CSR(tselect, wp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+  379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+  379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+  407 |     RV_WRITE_CSR(tdata2, match_pattern);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+  380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+  380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+  412 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+  416 |     RV_WRITE_CSR(tdata1, 0);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+  407 |     RV_WRITE_CSR(tdata2, match_pattern);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+  407 |     RV_WRITE_CSR(tdata2, match_pattern);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+  427 |     RV_WRITE_CSR(tselect, id);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+  412 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+  412 |     RV_WRITE_CSR(tselect, bp_num);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+  428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+      |             ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+  416 |     RV_WRITE_CSR(tdata1, 0);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+  416 |     RV_WRITE_CSR(tdata1, 0);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+  427 |     RV_WRITE_CSR(tselect, id);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  207 | #define RV_WRITE_CSR(reg, val) ({ \
+      |                                ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+  427 |     RV_WRITE_CSR(tselect, id);
+      |     ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+  428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+      |             ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+  428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+      |             ^~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+  205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+   51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+      |                                                                       ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+  205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                                      ~~~~~~~~^~~~~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ^
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+  174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+  204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+      |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+  205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+  154 |     return RV_READ_CSR(CSR_PRV_MODE);
+      |            ^~~~~~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+   51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+      |                                                                       ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+   51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+      |                                                                       ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                                      ~~~~~~~~^~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+   74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+      |                                                                                      ~~~~~~~~^~~~~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+  174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+  174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+      |                                                                    ~~~~~~~~~~~~^~~~
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+  699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                          ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+  699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                          ^~~~~~~~
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+   42 | #define REG_READ(_r) ({                                                                                                \
+      |                      ^
+/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+  699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+      |                          ^~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+                 from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:20:
+/home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    8 | #include_next "lwip/sockets.h"
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:6:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/sys/time.h:21:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   21 | #include_next <sys/time.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/include/netdb.h:14,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:7:
+/home/fercikmate/esp/esp-idf/components/lwip/include/lwip/netdb.h:9:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    9 | #include_next "lwip/netdb.h"
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/include/netdb.h:14,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:5:
+/home/fercikmate/esp/esp-idf/components/lwip/include/lwip/netdb.h:9:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    9 | #include_next "lwip/netdb.h"
+      |  ^~~~~~~~~~~~

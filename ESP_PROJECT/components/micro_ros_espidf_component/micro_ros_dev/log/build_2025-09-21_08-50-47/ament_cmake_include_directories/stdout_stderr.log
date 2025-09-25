@@ -1,0 +1,33 @@
+-- Found ament_cmake_core: 2.7.3 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_include_directories
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_C_COMPILER
+
+[0m
+gmake[1]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_include_directories'
+gmake[1]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_include_directories'
+-- Install configuration: ""
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_index/resource_index/package_run_dependencies/ament_cmake_include_directories
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_index/resource_index/parent_prefix_path/ament_cmake_include_directories
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/environment/ament_prefix_path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/environment/ament_prefix_path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/environment/path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/environment/path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/local_setup.bash
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/local_setup.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/local_setup.zsh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/local_setup.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/package.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_index/resource_index/packages/ament_cmake_include_directories
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake/ament_cmake_include_directories-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig-version.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/package.xml
+-- Up-to-date: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_include_directories/share/ament_cmake_include_directories/cmake/ament_include_directories_order.cmake

@@ -1,0 +1,8 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_action/src/rcl_action/graph.c:20:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/assert.h:15:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   15 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~

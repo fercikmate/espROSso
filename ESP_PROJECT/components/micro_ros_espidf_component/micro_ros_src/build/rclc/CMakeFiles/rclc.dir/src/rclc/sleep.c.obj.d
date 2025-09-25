@@ -1,0 +1,31 @@
+CMakeFiles/rclc.dir/src/rclc/sleep.c.obj: \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/src/rclc/sleep.c \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/include/rclc/sleep.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/include/rclc/visibility_control.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/unistd.h \
+ /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/sys/unistd.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/_ansi.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/newlib.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/_newlib_version.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/config.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/ieeefp.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/cdefs.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/_default_types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.1.0/include/stddef.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/_types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/endian.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/_endian.h \
+ /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/sys/select.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/select.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_sigset.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_timeval.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/timespec.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_timespec.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_pthreadtypes.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/sched.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/unistd.h

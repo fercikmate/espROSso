@@ -1,0 +1,2 @@
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc librosidl_typesupport_c.a CMakeFiles/rosidl_typesupport_c.dir/src/identifier.c.obj CMakeFiles/rosidl_typesupport_c.dir/src/message_type_support_dispatch.cpp.obj CMakeFiles/rosidl_typesupport_c.dir/src/service_type_support_dispatch.cpp.obj
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib librosidl_typesupport_c.a

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/PKG-INFO
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/dependency_links.txt
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/requires.txt
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/top_level.txt
+../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/zip-safe
+resource/rosidl_pycommon
+rosidl_pycommon/__init__.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py

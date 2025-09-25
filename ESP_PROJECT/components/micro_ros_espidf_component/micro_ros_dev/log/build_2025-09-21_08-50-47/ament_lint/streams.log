@@ -1,0 +1,36 @@
+[2.044s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_lint': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build install --record /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/install.log --single-version-externally-managed install_data
+[2.394s] running egg_info
+[2.394s] creating ../../../build/ament_lint/ament_lint.egg-info
+[2.415s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[2.420s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[2.420s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[2.420s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[2.421s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[2.421s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.446s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.448s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[2.449s] running build
+[2.449s] running build_py
+[2.449s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build
+[2.450s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib
+[2.450s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[2.451s] copying ament_lint/pytest_marker.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[2.452s] copying ament_lint/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[2.452s] running install
+[2.458s] running install_lib
+[2.471s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.471s] copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.472s] copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[2.473s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.476s] byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[2.476s] running install_data
+[2.476s] copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/share/ament_lint
+[2.476s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/share/ament_index
+[2.477s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/share/ament_index/resource_index
+[2.477s] creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/share/ament_index/resource_index/packages
+[2.477s] copying resource/ament_lint -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/share/ament_index/resource_index/packages
+[2.478s] running install_egg_info
+[2.497s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint-0.19.2-py3.10.egg-info
+[2.501s] running install_scripts
+[2.620s] writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/install.log'
+[2.711s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/prefix_override:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/build install --record /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/build/ament_lint/install.log --single-version-externally-managed install_data

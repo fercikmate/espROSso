@@ -1,0 +1,62 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 15.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 15.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr
+gmake[1]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[2]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[ 25%] [34m[1mNo download step for 'ucdr'[0m
+[ 37%] [34m[1mNo update step for 'ucdr'[0m
+[ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+loading initial cache file /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+gmake[4]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[5]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[6]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[6]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[6]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj[0m
+[ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.obj[0m
+[ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj[0m
+[ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj[0m
+[100%] [32m[1mLinking C static library libmicrocdr.a[0m
+gmake[6]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[100%] Built target microcdr
+gmake[5]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[4]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[34m[1mNo install step for 'ucdr'[0m
+[34m[1mCompleted 'ucdr'[0m
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+Built target ucdr
+gmake[2]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+gmake[1]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+-- Install configuration: "Release"
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/libmicrocdr.a
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/visibility.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/microcdr.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/config.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake

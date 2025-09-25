@@ -1,0 +1,2436 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_index_register_resource",
+			"rosidl_generate_interfaces",
+			"include",
+			"ament_execute_extensions",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_libraries",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_type_description/cmake/rosidl_generator_type_description_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_export_libraries/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_export_libraries/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_export_targets/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 246,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 103,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 185,
+				"parent" : 41
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 193,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 35,
+				"parent" : 43
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 25,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 45
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 200,
+				"parent" : 41
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 9,
+				"parent" : 49
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 163,
+				"parent" : 50
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 168,
+				"parent" : 50
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 10,
+				"parent" : 53
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 183,
+				"parent" : 54
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 196,
+				"parent" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 11,
+				"parent" : 57
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 177,
+				"parent" : 58
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 66,
+				"parent" : 127
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 128
+			},
+			{
+				"file" : 12,
+				"parent" : 129
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 47,
+				"parent" : 130
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 29,
+				"parent" : 131
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 132
+			},
+			{
+				"command" : 10,
+				"file" : 12,
+				"line" : 48,
+				"parent" : 130
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 43,
+				"parent" : 134
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 135
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 128
+			},
+			{
+				"file" : 14,
+				"parent" : 137
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 20,
+				"parent" : 138
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 139
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 139
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 70,
+				"parent" : 139
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 139
+			},
+			{
+				"command" : 11,
+				"file" : 14,
+				"line" : 26,
+				"parent" : 138
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 91,
+				"parent" : 144
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 91,
+				"parent" : 144
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 91,
+				"parent" : 144
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 107,
+				"parent" : 144
+			},
+			{
+				"command" : 0,
+				"file" : 15,
+				"line" : 120,
+				"parent" : 144
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 128
+			},
+			{
+				"file" : 17,
+				"parent" : 150
+			},
+			{
+				"command" : 12,
+				"file" : 17,
+				"line" : 16,
+				"parent" : 151
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 29,
+				"parent" : 152
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 153
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 128
+			},
+			{
+				"file" : 18,
+				"parent" : 155
+			},
+			{
+				"command" : 0,
+				"file" : 18,
+				"line" : 28,
+				"parent" : 156
+			},
+			{
+				"command" : 0,
+				"file" : 18,
+				"line" : 28,
+				"parent" : 156
+			},
+			{
+				"command" : 0,
+				"file" : 18,
+				"line" : 28,
+				"parent" : 156
+			},
+			{
+				"command" : 13,
+				"file" : 13,
+				"line" : 68,
+				"parent" : 127
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 122,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 150,
+				"parent" : 160
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 157,
+				"parent" : 160
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/rosidl_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/example_interfaces"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/action",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/action/Fibonacci.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Bool.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Byte.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/ByteMultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Char.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Empty.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Float32.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Float32MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Float64.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Float64MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int16.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int16MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int32.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int32MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int64.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int64MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int8.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/Int8MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/MultiArrayDimension.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/MultiArrayLayout.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/String.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt16.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt16MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt32.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt32MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt64.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt64MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt8.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/UInt8MultiArray.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/msg/WString.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/srv/AddTwoInts.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/srv/SetBool.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_type_description/example_interfaces/srv/Trigger.json"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/example_interfaces/example_interfaces",
+			"paths" : 
+			[
+				{
+					"from" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_generator_c/example_interfaces",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libexample_interfaces__rosidl_generator_c.a"
+			],
+			"targetId" : "example_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Unspecified",
+			"destination" : "include/example_interfaces/example_interfaces",
+			"paths" : 
+			[
+				{
+					"from" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_typesupport_introspection_c/example_interfaces",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libexample_interfaces__rosidl_typesupport_introspection_c.a"
+			],
+			"targetId" : "example_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Unspecified",
+			"destination" : "include/example_interfaces",
+			"paths" : 
+			[
+				{
+					"from" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_typesupport_microxrcedds_c/example_interfaces",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libexample_interfaces__rosidl_typesupport_microxrcedds_c.a"
+			],
+			"targetId" : "example_interfaces__rosidl_typesupport_microxrcedds_c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libexample_interfaces__rosidl_typesupport_c.a"
+			],
+			"targetId" : "example_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/action",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/action/Fibonacci.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Bool.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Byte.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/ByteMultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Char.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Empty.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Float32.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Float32MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Float64.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Float64MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int16.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int16MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int32.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int32MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int64.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 75,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int64MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int8.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 77,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/Int8MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/MultiArrayDimension.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 79,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/MultiArrayLayout.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/String.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 81,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt16.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt16MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 83,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt32.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt32MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 85,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt64.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt64MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 87,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt8.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/UInt8MultiArray.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 89,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/msg/WString.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/srv/AddTwoInts.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 91,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/srv/SetBool.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_adapter/example_interfaces/srv/Trigger.idl"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 93,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/action",
+			"paths" : 
+			[
+				"action/Fibonacci.action"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Bool.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 95,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Byte.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/ByteMultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 97,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Char.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Empty.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 99,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Float32.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Float32MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 101,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Float64.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Float64MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 103,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int16.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int16MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 105,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int32.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int32MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 107,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int64.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int64MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 109,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int8.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/Int8MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 111,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/MultiArrayDimension.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/MultiArrayLayout.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 113,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/String.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt16.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 115,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt16MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt32.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 117,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt32MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 118,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt64.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 119,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt64MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 120,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt8.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 121,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/UInt8MultiArray.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 122,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/msg",
+			"paths" : 
+			[
+				"msg/WString.msg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 123,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"srv/AddTwoInts.srv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 124,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"srv/SetBool.srv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 125,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/srv",
+			"paths" : 
+			[
+				"srv/Trigger.srv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 126,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"mapping_rules.yaml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 133,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_interfaces"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 136,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_interfaces"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 140,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 141,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 142,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 143,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/environment",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 145,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 146,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 147,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 148,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 149,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 154,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/example_interfaces"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 157,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"exportName" : "export_example_interfaces__rosidl_generator_c",
+			"exportTargets" : 
+			[
+				{
+					"id" : "example_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 158,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"exportName" : "example_interfaces__rosidl_typesupport_introspection_c",
+			"exportTargets" : 
+			[
+				{
+					"id" : "example_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 159,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"exportName" : "example_interfaces__rosidl_typesupport_c",
+			"exportTargets" : 
+			[
+				{
+					"id" : "example_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 161,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 162,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 163,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 164,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 165,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 166,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 167,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 168,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces/cmake",
+			"paths" : 
+			[
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_core/example_interfacesConfig.cmake",
+				"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/example_interfaces/ament_cmake_core/example_interfacesConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 169,
+			"component" : "Unspecified",
+			"destination" : "share/example_interfaces",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

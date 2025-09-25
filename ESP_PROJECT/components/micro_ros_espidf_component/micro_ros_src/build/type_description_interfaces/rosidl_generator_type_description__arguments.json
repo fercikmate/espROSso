@@ -1,0 +1,17 @@
+{
+  "package_name": "type_description_interfaces",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/service_msgs",
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces"
+  ]
+}

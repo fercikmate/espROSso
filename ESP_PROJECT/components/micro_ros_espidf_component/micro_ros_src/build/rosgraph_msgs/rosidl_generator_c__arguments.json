@@ -1,0 +1,42 @@
+{
+  "package_name": "rosgraph_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosgraph_msgs/rosidl_generator_c/rosgraph_msgs",
+  "template_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosgraph_msgs/rosidl_adapter/rosgraph_msgs:msg/Clock.idl"
+  ],
+  "ros_interface_files": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/rosgraph_msgs/msg/Clock.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosgraph_msgs/rosidl_adapter/rosgraph_msgs/msg/Clock.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Clock.idl:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosgraph_msgs/rosidl_generator_type_description/rosgraph_msgs/msg/Clock.json"
+  ]
+}

@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field_type__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field_type__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/individual_type_description__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/individual_type_description__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/key_value__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/key_value__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_description__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_description__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_source__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_source__type_support.cpp.obj.d"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/srv/get_type_description__type_support.cpp.obj"
+  "CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/srv/get_type_description__type_support.cpp.obj.d"
+  "libtype_description_interfaces__rosidl_typesupport_c.a"
+  "libtype_description_interfaces__rosidl_typesupport_c.pdb"
+  "rosidl_typesupport_c/type_description_interfaces/msg/field__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/msg/field_type__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/msg/individual_type_description__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/msg/key_value__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/msg/type_description__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/msg/type_source__type_support.cpp"
+  "rosidl_typesupport_c/type_description_interfaces/srv/get_type_description__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

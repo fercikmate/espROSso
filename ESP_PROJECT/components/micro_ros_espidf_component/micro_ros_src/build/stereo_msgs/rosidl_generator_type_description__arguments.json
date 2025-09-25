@@ -1,0 +1,14 @@
+{
+  "package_name": "stereo_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/stereo_msgs/rosidl_generator_type_description/stereo_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/stereo_msgs/rosidl_adapter/stereo_msgs:msg/DisparityImage.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/sensor_msgs",
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces",
+    "geometry_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/geometry_msgs",
+    "std_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/std_msgs",
+    "service_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/service_msgs"
+  ]
+}

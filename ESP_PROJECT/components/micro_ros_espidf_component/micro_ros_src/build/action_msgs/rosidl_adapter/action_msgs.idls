@@ -1,0 +1,4 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

@@ -1,0 +1,14 @@
+{
+  "package_name": "shape_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_generator_type_description/shape_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Mesh.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/MeshTriangle.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Plane.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/SolidPrimitive.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/geometry_msgs",
+    "std_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/std_msgs"
+  ]
+}

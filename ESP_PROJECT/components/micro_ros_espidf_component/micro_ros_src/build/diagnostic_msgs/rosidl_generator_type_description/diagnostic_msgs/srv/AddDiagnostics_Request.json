@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "diagnostic_msgs/srv/AddDiagnostics_Request",
+      "fields": [
+        {
+          "name": "load_namespace",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "diagnostic_msgs/srv/AddDiagnostics_Request",
+      "hash_string": "RIHS01_e0b6572a07c2b3ca2c4f2acf742297661f6ceb50f5baa4f9305b6094cf950146"
+    }
+  ]
+}

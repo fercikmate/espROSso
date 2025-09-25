@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rcl_interfaces/srv/GetLoggerLevels_Response",
+      "fields": [
+        {
+          "name": "levels",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rcl_interfaces/msg/LoggerLevel"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rcl_interfaces/msg/LoggerLevel",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "level",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rcl_interfaces/srv/GetLoggerLevels_Response",
+      "hash_string": "RIHS01_228685d350911d213047abe756f5bf566d2f76b359c4e9fac16e5ef652aff910"
+    },
+    {
+      "type_name": "rcl_interfaces/msg/LoggerLevel",
+      "hash_string": "RIHS01_95785cc42f048ab4f395af65035aeaf2181d8e1c7a44edb8ad4558445fdb43c0"
+    }
+  ]
+}

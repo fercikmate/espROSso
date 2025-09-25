@@ -1,0 +1,2 @@
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc librclc_parameter.a CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_server.c.obj CMakeFiles/rclc_parameter.dir/src/rclc_parameter/parameter_utils.c.obj
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib librclc_parameter.a

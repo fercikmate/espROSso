@@ -1,0 +1,402 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libstd_srvs__rosidl_typesupport_introspection_c.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"add_compile_definitions",
+			"project",
+			"add_definitions",
+			"find_package",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_c_generate_interfaces.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/esp32_toolchain.cmake",
+			"/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros_core/share/ament_cmake_ros_core/cmake/ament_cmake_ros_core-extras.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros_core/share/ament_cmake_ros_core/cmake/ament_cmake_ros_coreConfig.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 124,
+				"parent" : 10
+			},
+			{
+				"file" : 4,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 32,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 10,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 15,
+				"parent" : 15
+			},
+			{
+				"file" : 9,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"file" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"file" : 7,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 21
+			},
+			{
+				"file" : 6,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 12
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ffunction-sections -fdata-sections -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override -I/home/fercikmate/esp/esp-idf/components/riscv/include -I/home/fercikmate/esp/esp-idf/components/esp_app_format/include -I/home/fercikmate/esp/esp-idf/components/esp_bootloader_format/include -I/home/fercikmate/esp/esp-idf/components/app_update/include -I/home/fercikmate/esp/esp-idf/components/esp_partition/include -I/home/fercikmate/esp/esp-idf/components/efuse/include -I/home/fercikmate/esp/esp-idf/components/efuse/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_security/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gpio/include -I/home/fercikmate/esp/esp-idf/components/esp_pm/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/port/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/fercikmate/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_mm/include -I/home/fercikmate/esp/esp-idf/components/spi_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_usb_cdc_rom_console/include -I/home/fercikmate/esp/esp-idf/components/esp_system/include -I/home/fercikmate/esp/esp-idf/components/esp_common/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6 -I/home/fercikmate/esp/esp-idf/components/hal/platform_port/include -I/home/fercikmate/esp/esp-idf/components/hal/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/hal/include -I/home/fercikmate/esp/esp-idf/components/log/include -I/home/fercikmate/esp/esp-idf/components/heap/include -I/home/fercikmate/esp/esp-idf/components/heap/tlsf -I/home/fercikmate/esp/esp-idf/components/soc/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6 -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/register -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/soc -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/dma/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/ldo/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/debug_probe/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/etm/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/power_supply/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/modem/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/config/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/esp_additions/include -I/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include -I/home/fercikmate/esp/esp-idf/components/pthread/include -I/home/fercikmate/esp/esp-idf/components/esp_timer/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gptimer/include -I/home/fercikmate/esp/esp-idf/components/esp_ringbuf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_uart/include -I/home/fercikmate/esp/esp-idf/components/app_trace/include -I/home/fercikmate/esp/esp-idf/components/esp_event/include -I/home/fercikmate/esp/esp-idf/components/nvs_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/fercikmate/esp/esp-idf/components/esp_vfs_console/include -I/home/fercikmate/esp/esp-idf/components/vfs/include -I/home/fercikmate/esp/esp-idf/components/lwip/include -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps/sntp -I/home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/freertos/include/ -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/fercikmate/esp/esp-idf/components/esp_netif/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/port/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/home/fercikmate/esp/esp-idf/components/esp_coex/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include/local -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_spi/include -I/home/fercikmate/esp/esp-idf/components/esp_gdbstub/include -I/home/fercikmate/esp/esp-idf/components/unity/include -I/home/fercikmate/esp/esp-idf/components/unity/unity/src -I/home/fercikmate/esp/esp-idf/components/cmock/CMock/src -I/home/fercikmate/esp/esp-idf/components/console//home/fercikmate/esp/esp-idf/components/console -I/home/fercikmate/esp/esp-idf/components/esp_driver_pcnt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_mcpwm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ana_cmpr/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2s/include -I/home/fercikmate/esp/esp-idf/components/sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sd_intf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/legacy/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdspi/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_dac/./include -I/home/fercikmate/esp/esp-idf/components/esp_driver_bitscrambler/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_rmt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_tsens/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2c/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ledc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_parlio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_twai/include -I/home/fercikmate/esp/esp-idf/components/driver/deprecated -I/home/fercikmate/esp/esp-idf/components/driver/i2c/include -I/home/fercikmate/esp/esp-idf/components/driver/touch_sensor/include -I/home/fercikmate/esp/esp-idf/components/driver/twai/include -I/home/fercikmate/esp/esp-idf/components/http_parser/. -I/home/fercikmate/esp/esp-idf/components/esp-tls//home/fercikmate/esp/esp-idf/components/esp-tls -I/home/fercikmate/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/fercikmate/esp/esp-idf/components/esp_adc/include -I/home/fercikmate/esp/esp-idf/components/esp_adc/interface -I/home/fercikmate/esp/esp-idf/components/esp_adc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_blockdev/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_isp/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/interface -I/home/fercikmate/esp/esp-idf/components/esp_driver_i3c/include -I/home/fercikmate/esp/esp-idf/components/esp_psram/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_jpeg/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ppa/include -I/home/fercikmate/esp/esp-idf/components/esp_eth/include -I/home/fercikmate/esp/esp-idf/components/esp_hid/include -I/home/fercikmate/esp/esp-idf/components/tcp_transport/include -I/home/fercikmate/esp/esp-idf/components/esp_http_client/include -I/home/fercikmate/esp/esp-idf/components/esp_http_server/include -I/home/fercikmate/esp/esp-idf/components/esp_https_ota/include -I/home/fercikmate/esp/esp-idf/components/esp_https_server/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/interface -I/home/fercikmate/esp/esp-idf/components/protobuf-c/protobuf-c -I/home/fercikmate/esp/esp-idf/components/protocomm/include/common -I/home/fercikmate/esp/esp-idf/components/protocomm/include/security -I/home/fercikmate/esp/esp-idf/components/protocomm/include/transports -I/home/fercikmate/esp/esp-idf/components/protocomm/include/crypto/srp6a -I/home/fercikmate/esp/esp-idf/components/protocomm/proto-c -I/home/fercikmate/esp/esp-idf/components/esp_local_ctrl/include -I/home/fercikmate/esp/esp-idf/components/esp_tee/include -I/home/fercikmate/esp/esp-idf/components/wear_levelling/include -I/home/fercikmate/esp/esp-idf/components/fatfs/diskio -I/home/fercikmate/esp/esp-idf/components/fatfs/src -I/home/fercikmate/esp/esp-idf/components/fatfs/vfs -I/home/fercikmate/esp/esp-idf/components/idf_test/include -I/home/fercikmate/esp/esp-idf/components/idf_test/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/ieee802154/include -I/home/fercikmate/esp/esp-idf/components/json/cJSON -I/home/fercikmate/esp/esp-idf/components/mqtt//home/fercikmate/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/fercikmate/esp/esp-idf/components/nvs_sec_provider/include -I/home/fercikmate/esp/esp-idf/components/rt/include -I/home/fercikmate/esp/esp-idf/components/spiffs/include -I/home/fercikmate/esp/esp-idf/components/wifi_provisioning/include -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/main/. -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/network_interfaces -ffunction-sections -fdata-sections -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override -I/home/fercikmate/esp/esp-idf/components/riscv/include -I/home/fercikmate/esp/esp-idf/components/esp_app_format/include -I/home/fercikmate/esp/esp-idf/components/esp_bootloader_format/include -I/home/fercikmate/esp/esp-idf/components/app_update/include -I/home/fercikmate/esp/esp-idf/components/esp_partition/include -I/home/fercikmate/esp/esp-idf/components/efuse/include -I/home/fercikmate/esp/esp-idf/components/efuse/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_security/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gpio/include -I/home/fercikmate/esp/esp-idf/components/esp_pm/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/port/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/fercikmate/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_mm/include -I/home/fercikmate/esp/esp-idf/components/spi_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_usb_cdc_rom_console/include -I/home/fercikmate/esp/esp-idf/components/esp_system/include -I/home/fercikmate/esp/esp-idf/components/esp_common/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6 -I/home/fercikmate/esp/esp-idf/components/hal/platform_port/include -I/home/fercikmate/esp/esp-idf/components/hal/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/hal/include -I/home/fercikmate/esp/esp-idf/components/log/include -I/home/fercikmate/esp/esp-idf/components/heap/include -I/home/fercikmate/esp/esp-idf/components/heap/tlsf -I/home/fercikmate/esp/esp-idf/components/soc/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6 -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/register -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/soc -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/dma/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/ldo/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/debug_probe/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/etm/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/power_supply/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/modem/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/config/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/esp_additions/include -I/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include -I/home/fercikmate/esp/esp-idf/components/pthread/include -I/home/fercikmate/esp/esp-idf/components/esp_timer/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gptimer/include -I/home/fercikmate/esp/esp-idf/components/esp_ringbuf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_uart/include -I/home/fercikmate/esp/esp-idf/components/app_trace/include -I/home/fercikmate/esp/esp-idf/components/esp_event/include -I/home/fercikmate/esp/esp-idf/components/nvs_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/fercikmate/esp/esp-idf/components/esp_vfs_console/include -I/home/fercikmate/esp/esp-idf/components/vfs/include -I/home/fercikmate/esp/esp-idf/components/lwip/include -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps/sntp -I/home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/freertos/include/ -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/fercikmate/esp/esp-idf/components/esp_netif/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/port/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/home/fercikmate/esp/esp-idf/components/esp_coex/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include/local -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_spi/include -I/home/fercikmate/esp/esp-idf/components/esp_gdbstub/include -I/home/fercikmate/esp/esp-idf/components/unity/include -I/home/fercikmate/esp/esp-idf/components/unity/unity/src -I/home/fercikmate/esp/esp-idf/components/cmock/CMock/src -I/home/fercikmate/esp/esp-idf/components/console//home/fercikmate/esp/esp-idf/components/console -I/home/fercikmate/esp/esp-idf/components/esp_driver_pcnt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_mcpwm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ana_cmpr/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2s/include -I/home/fercikmate/esp/esp-idf/components/sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sd_intf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/legacy/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdspi/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_dac/./include -I/home/fercikmate/esp/esp-idf/components/esp_driver_bitscrambler/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_rmt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_tsens/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2c/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ledc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_parlio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_twai/include -I/home/fercikmate/esp/esp-idf/components/driver/deprecated -I/home/fercikmate/esp/esp-idf/components/driver/i2c/include -I/home/fercikmate/esp/esp-idf/components/driver/touch_sensor/include -I/home/fercikmate/esp/esp-idf/components/driver/twai/include -I/home/fercikmate/esp/esp-idf/components/http_parser/. -I/home/fercikmate/esp/esp-idf/components/esp-tls//home/fercikmate/esp/esp-idf/components/esp-tls -I/home/fercikmate/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/fercikmate/esp/esp-idf/components/esp_adc/include -I/home/fercikmate/esp/esp-idf/components/esp_adc/interface -I/home/fercikmate/esp/esp-idf/components/esp_adc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_blockdev/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_isp/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/interface -I/home/fercikmate/esp/esp-idf/components/esp_driver_i3c/include -I/home/fercikmate/esp/esp-idf/components/esp_psram/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_jpeg/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ppa/include -I/home/fercikmate/esp/esp-idf/components/esp_eth/include -I/home/fercikmate/esp/esp-idf/components/esp_hid/include -I/home/fercikmate/esp/esp-idf/components/tcp_transport/include -I/home/fercikmate/esp/esp-idf/components/esp_http_client/include -I/home/fercikmate/esp/esp-idf/components/esp_http_server/include -I/home/fercikmate/esp/esp-idf/components/esp_https_ota/include -I/home/fercikmate/esp/esp-idf/components/esp_https_server/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/interface -I/home/fercikmate/esp/esp-idf/components/protobuf-c/protobuf-c -I/home/fercikmate/esp/esp-idf/components/protocomm/include/common -I/home/fercikmate/esp/esp-idf/components/protocomm/include/security -I/home/fercikmate/esp/esp-idf/components/protocomm/include/transports -I/home/fercikmate/esp/esp-idf/components/protocomm/include/crypto/srp6a -I/home/fercikmate/esp/esp-idf/components/protocomm/proto-c -I/home/fercikmate/esp/esp-idf/components/esp_local_ctrl/include -I/home/fercikmate/esp/esp-idf/components/esp_tee/include -I/home/fercikmate/esp/esp-idf/components/wear_levelling/include -I/home/fercikmate/esp/esp-idf/components/fatfs/diskio -I/home/fercikmate/esp/esp-idf/components/fatfs/src -I/home/fercikmate/esp/esp-idf/components/fatfs/vfs -I/home/fercikmate/esp/esp-idf/components/idf_test/include -I/home/fercikmate/esp/esp-idf/components/idf_test/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/ieee802154/include -I/home/fercikmate/esp/esp-idf/components/json/cJSON -I/home/fercikmate/esp/esp-idf/components/mqtt//home/fercikmate/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/fercikmate/esp/esp-idf/components/nvs_sec_provider/include -I/home/fercikmate/esp/esp-idf/components/rt/include -I/home/fercikmate/esp/esp-idf/components/spiffs/include -I/home/fercikmate/esp/esp-idf/components/wifi_provisioning/include -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/main/. -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/network_interfaces -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LWIP_IPV4"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "LWIP_IPV6"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "PLATFORM_NAME_FREERTOS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "ROS_PACKAGE_NAME=\"std_srvs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/build/config"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/service_msgs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcutils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 27,
+					"isSystem" : true,
+					"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rosidl_typesupport_introspection_c"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "std_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "std_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install"
+		}
+	},
+	"name" : "std_srvs__rosidl_typesupport_introspection_c",
+	"nameOnDisk" : "libstd_srvs__rosidl_typesupport_introspection_c.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/set_bool__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/trigger__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_srvs/rosidl_typesupport_introspection_c/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

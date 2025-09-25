@@ -1,0 +1,83 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_get_field_map':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:141:28: warning: unused variable 'error_string' [-Wunused-variable]
+  141 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:152:30: warning: unused variable 'error_string' [-Wunused-variable]
+  152 |       rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                              ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_prune_referenced_type_descriptions_in_place':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:524:28: warning: unused variable 'error_string' [-Wunused-variable]
+  524 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:534:28: warning: unused variable 'error_string' [-Wunused-variable]
+  534 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:544:28: warning: unused variable 'error_string' [-Wunused-variable]
+  544 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_individual_type_description_is_valid':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:668:30: warning: unused variable 'error_string' [-Wunused-variable]
+  668 |       rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                              ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:684:28: warning: unused variable 'error_string' [-Wunused-variable]
+  684 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:694:28: warning: unused variable 'error_string' [-Wunused-variable]
+  694 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_type_description_is_valid':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:738:28: warning: unused variable 'error_string' [-Wunused-variable]
+  738 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:758:28: warning: unused variable 'error_string' [-Wunused-variable]
+  758 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:770:28: warning: unused variable 'error_string' [-Wunused-variable]
+  770 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:790:28: warning: unused variable 'error_string' [-Wunused-variable]
+  790 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:800:28: warning: unused variable 'error_string' [-Wunused-variable]
+  800 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:821:30: warning: unused variable 'error_string' [-Wunused-variable]
+  821 |       rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                              ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:835:28: warning: unused variable 'error_string' [-Wunused-variable]
+  835 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:845:28: warning: unused variable 'error_string' [-Wunused-variable]
+  845 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:855:28: warning: unused variable 'error_string' [-Wunused-variable]
+  855 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:865:28: warning: unused variable 'error_string' [-Wunused-variable]
+  865 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_coerce_to_valid_type_description_in_place':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:904:28: warning: unused variable 'error_string' [-Wunused-variable]
+  904 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:915:28: warning: unused variable 'error_string' [-Wunused-variable]
+  915 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:926:28: warning: unused variable 'error_string' [-Wunused-variable]
+  926 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_append_referenced_individual_type_description':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:1191:28: warning: unused variable 'error_string' [-Wunused-variable]
+ 1191 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_append_referenced_type_description':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:1277:30: warning: unused variable 'error_string' [-Wunused-variable]
+ 1277 |       rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                              ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c: In function 'rosidl_runtime_c_type_description_utils_repl_all_type_description_type_names_in_place':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:1438:28: warning: unused variable 'error_string' [-Wunused-variable]
+ 1438 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_runtime_c/src/type_description_utils.c:1456:32: warning: unused variable 'error_string' [-Wunused-variable]
+ 1456 |         rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                                ^~~~~~~~~~~~

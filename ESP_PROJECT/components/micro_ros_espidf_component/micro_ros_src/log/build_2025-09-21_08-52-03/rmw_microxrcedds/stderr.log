@@ -1,0 +1,11 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/time.h:11:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   11 | #include_next <time.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c: In function 'rmw_uros_options_set_udp_address':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:94:80: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+   94 |     snprintf(rmw_options->impl->transport_params.agent_address, MAX_IP_LEN, "%s", ip);
+      |                                                                                ^
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microros/init_options.c:94:5: note: 'snprintf' output between 1 and 17 bytes into a destination of size 16
+   94 |     snprintf(rmw_options->impl->transport_params.agent_address, MAX_IP_LEN, "%s", ip);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

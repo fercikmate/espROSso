@@ -1,0 +1,13 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/include/rclc/executor.h:24,
+                 from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/src/rclc/executor.c:17:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/src/rclc/action_client.c:16:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/time.h:11:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   11 | #include_next <time.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/src/rclc/executor_handle.c: In function 'rclc_executor_handle_print':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc/src/rclc/executor_handle.c:84:10: warning: variable 'typeName' set but not used [-Wunused-but-set-variable]
+   84 |   char * typeName;
+      |          ^~~~~~~~

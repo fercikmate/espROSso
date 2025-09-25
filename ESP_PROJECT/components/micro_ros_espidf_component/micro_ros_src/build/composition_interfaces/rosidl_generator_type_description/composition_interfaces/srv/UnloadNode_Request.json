@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "composition_interfaces/srv/UnloadNode_Request",
+      "fields": [
+        {
+          "name": "unique_id",
+          "type": {
+            "type_id": 9,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "composition_interfaces/srv/UnloadNode_Request",
+      "hash_string": "RIHS01_95d5cfc357956740190c7685ac868d9c7c98dcb8c1416aae8eaa351422074e12"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc librclc_lifecycle.a CMakeFiles/rclc_lifecycle.dir/src/rclc_lifecycle/rclc_lifecycle.c.obj
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib librclc_lifecycle.a

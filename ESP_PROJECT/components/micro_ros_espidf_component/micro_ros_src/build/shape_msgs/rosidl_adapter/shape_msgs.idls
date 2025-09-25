@@ -1,0 +1,4 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Mesh.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/MeshTriangle.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Plane.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/shape_msgs/rosidl_adapter/shape_msgs:msg/SolidPrimitive.idl

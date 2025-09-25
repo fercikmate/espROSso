@@ -1,0 +1,12 @@
+{
+  "package_name": "statistics_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/statistics_msgs/rosidl_generator_type_description/statistics_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/MetricsMessage.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataPoint.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataType.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces"
+  ]
+}

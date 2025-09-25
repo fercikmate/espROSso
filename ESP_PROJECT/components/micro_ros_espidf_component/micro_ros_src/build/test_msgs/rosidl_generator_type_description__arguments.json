@@ -1,0 +1,34 @@
+{
+  "package_name": "test_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_generator_type_description/test_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:msg/KeyedLong.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:msg/KeyedString.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:msg/NonKeyedWithNestedKey.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:msg/ComplexNestedKey.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Arrays.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/BasicTypes.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/BoundedPlainSequences.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/BoundedSequences.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Constants.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Defaults.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Empty.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/MultiNested.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Nested.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Strings.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/UnboundedSequences.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/WStrings.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:srv/Arrays.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:srv/BasicTypes.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:srv/Empty.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:action/Fibonacci.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:msg/Builtins.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_msgs/rosidl_adapter/test_msgs:action/NestedMessage.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces",
+    "service_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/service_msgs",
+    "action_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/action_msgs",
+    "unique_identifier_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/unique_identifier_msgs"
+  ]
+}

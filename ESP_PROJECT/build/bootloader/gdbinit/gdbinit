@@ -1,0 +1,2 @@
+source /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/gdbinit/symbols
+source /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/gdbinit/connect

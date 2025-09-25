@@ -1,0 +1,31 @@
+{
+  "package_name": "rcl_interfaces",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_generator_type_description/rcl_interfaces",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/FloatingPointRange.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/IntegerRange.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ListParametersResult.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Log.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterDescriptor.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEventDescriptors.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterEvent.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/Parameter.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterType.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/ParameterValue.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/SetParametersResult.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/LoggerLevel.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:msg/SetLoggerLevelsResult.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/DescribeParameters.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameters.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetParameterTypes.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/ListParameters.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParametersAtomically.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetParameters.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/GetLoggerLevels.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl_interfaces/rosidl_adapter/rcl_interfaces:srv/SetLoggerLevels.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces",
+    "service_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/service_msgs"
+  ]
+}

@@ -1,0 +1,28 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport/src/api/serialization_support.c:15:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/assert.h:15:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   15 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport/src/api/dynamic_data.c:17:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport/src/api/dynamic_type.c:17:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/assert.h:15:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   15 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/assert.h:15:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   15 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport/src/api/dynamic_type.c: In function 'rosidl_dynamic_typesupport_dynamic_type_builder_init_from_description':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport/src/api/dynamic_type.c:318:28: warning: unused variable 'error_string' [-Wunused-variable]
+  318 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~

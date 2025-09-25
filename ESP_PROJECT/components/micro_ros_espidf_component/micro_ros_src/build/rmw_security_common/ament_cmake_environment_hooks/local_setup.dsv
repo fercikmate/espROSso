@@ -1,0 +1,3 @@
+source;share/rmw_security_common/environment/ament_prefix_path.sh
+source;share/rmw_security_common/environment/library_path.sh
+source;share/rmw_security_common/environment/path.sh

@@ -1,0 +1,1009 @@
+[0.926s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DIDF_INCLUDES=-I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override -I/home/fercikmate/esp/esp-idf/components/riscv/include -I/home/fercikmate/esp/esp-idf/components/esp_app_format/include -I/home/fercikmate/esp/esp-idf/components/esp_bootloader_format/include -I/home/fercikmate/esp/esp-idf/components/app_update/include -I/home/fercikmate/esp/esp-idf/components/esp_partition/include -I/home/fercikmate/esp/esp-idf/components/efuse/include -I/home/fercikmate/esp/esp-idf/components/efuse/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_security/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gpio/include -I/home/fercikmate/esp/esp-idf/components/esp_pm/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/port/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/fercikmate/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_mm/include -I/home/fercikmate/esp/esp-idf/components/spi_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_usb_cdc_rom_console/include -I/home/fercikmate/esp/esp-idf/components/esp_system/include -I/home/fercikmate/esp/esp-idf/components/esp_common/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6 -I/home/fercikmate/esp/esp-idf/components/hal/platform_port/include -I/home/fercikmate/esp/esp-idf/components/hal/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/hal/include -I/home/fercikmate/esp/esp-idf/components/log/include -I/home/fercikmate/esp/esp-idf/components/heap/include -I/home/fercikmate/esp/esp-idf/components/heap/tlsf -I/home/fercikmate/esp/esp-idf/components/soc/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6 -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/register -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/soc -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/dma/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/ldo/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/debug_probe/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/etm/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/power_supply/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/modem/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/config/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/esp_additions/include -I/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include -I/home/fercikmate/esp/esp-idf/components/pthread/include -I/home/fercikmate/esp/esp-idf/components/esp_timer/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gptimer/include -I/home/fercikmate/esp/esp-idf/components/esp_ringbuf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_uart/include -I/home/fercikmate/esp/esp-idf/components/app_trace/include -I/home/fercikmate/esp/esp-idf/components/esp_event/include -I/home/fercikmate/esp/esp-idf/components/nvs_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/fercikmate/esp/esp-idf/components/esp_vfs_console/include -I/home/fercikmate/esp/esp-idf/components/vfs/include -I/home/fercikmate/esp/esp-idf/components/lwip/include -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps/sntp -I/home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/freertos/include/ -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/fercikmate/esp/esp-idf/components/esp_netif/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/port/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/home/fercikmate/esp/esp-idf/components/esp_coex/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include/local -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_spi/include -I/home/fercikmate/esp/esp-idf/components/esp_gdbstub/include -I/home/fercikmate/esp/esp-idf/components/unity/include -I/home/fercikmate/esp/esp-idf/components/unity/unity/src -I/home/fercikmate/esp/esp-idf/components/cmock/CMock/src -I/home/fercikmate/esp/esp-idf/components/console//home/fercikmate/esp/esp-idf/components/console -I/home/fercikmate/esp/esp-idf/components/esp_driver_pcnt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_mcpwm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ana_cmpr/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2s/include -I/home/fercikmate/esp/esp-idf/components/sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sd_intf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/legacy/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdspi/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_dac/./include -I/home/fercikmate/esp/esp-idf/components/esp_driver_bitscrambler/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_rmt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_tsens/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2c/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ledc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_parlio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_twai/include -I/home/fercikmate/esp/esp-idf/components/driver/deprecated -I/home/fercikmate/esp/esp-idf/components/driver/i2c/include -I/home/fercikmate/esp/esp-idf/components/driver/touch_sensor/include -I/home/fercikmate/esp/esp-idf/components/driver/twai/include -I/home/fercikmate/esp/esp-idf/components/http_parser/. -I/home/fercikmate/esp/esp-idf/components/esp-tls//home/fercikmate/esp/esp-idf/components/esp-tls -I/home/fercikmate/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/fercikmate/esp/esp-idf/components/esp_adc/include -I/home/fercikmate/esp/esp-idf/components/esp_adc/interface -I/home/fercikmate/esp/esp-idf/components/esp_adc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_blockdev/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_isp/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/interface -I/home/fercikmate/esp/esp-idf/components/esp_driver_i3c/include -I/home/fercikmate/esp/esp-idf/components/esp_psram/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_jpeg/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ppa/include -I/home/fercikmate/esp/esp-idf/components/esp_eth/include -I/home/fercikmate/esp/esp-idf/components/esp_hid/include -I/home/fercikmate/esp/esp-idf/components/tcp_transport/include -I/home/fercikmate/esp/esp-idf/components/esp_http_client/include -I/home/fercikmate/esp/esp-idf/components/esp_http_server/include -I/home/fercikmate/esp/esp-idf/components/esp_https_ota/include -I/home/fercikmate/esp/esp-idf/components/esp_https_server/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/interface -I/home/fercikmate/esp/esp-idf/components/protobuf-c/protobuf-c -I/home/fercikmate/esp/esp-idf/components/protocomm/include/common -I/home/fercikmate/esp/esp-idf/components/protocomm/include/security -I/home/fercikmate/esp/esp-idf/components/protocomm/include/transports -I/home/fercikmate/esp/esp-idf/components/protocomm/include/crypto/srp6a -I/home/fercikmate/esp/esp-idf/components/protocomm/proto-c -I/home/fercikmate/esp/esp-idf/components/esp_local_ctrl/include -I/home/fercikmate/esp/esp-idf/components/esp_tee/include -I/home/fercikmate/esp/esp-idf/components/wear_levelling/include -I/home/fercikmate/esp/esp-idf/components/fatfs/diskio -I/home/fercikmate/esp/esp-idf/components/fatfs/src -I/home/fercikmate/esp/esp-idf/components/fatfs/vfs -I/home/fercikmate/esp/esp-idf/components/idf_test/include -I/home/fercikmate/esp/esp-idf/components/idf_test/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/ieee802154/include -I/home/fercikmate/esp/esp-idf/components/json/cJSON -I/home/fercikmate/esp/esp-idf/components/mqtt//home/fercikmate/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/fercikmate/esp/esp-idf/components/nvs_sec_provider/include -I/home/fercikmate/esp/esp-idf/components/rt/include -I/home/fercikmate/esp/esp-idf/components/spiffs/include -I/home/fercikmate/esp/esp-idf/components/wifi_provisioning/include -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/main/. -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/network_interfaces -DCMAKE_C_STANDARD=11 -DUCLIENT_C_STANDARD=11 -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DUCLIENT_PIC=OFF -DUCLIENT_PROFILE_DISCOVERY=ON -DUCLIENT_PROFILE_UDP=ON -DUCLIENT_PROFILE_CUSTOM_TRANSPORT=ON -DUCLIENT_PROFILE_SERIAL=OFF -DUCLIENT_PROFILE_TCP=OFF -DUCLIENT_MIN_HEARTBEAT_TIME_INTERVAL=1 -DCMAKE_INSTALL_PREFIX=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install
+[1.787s] Not searching for unused variables given on the command line.
+[1.788s] -- The C compiler identification is GNU 15.1.0
+[2.497s] -- Detecting C compiler ABI info
+[2.754s] -- Detecting C compiler ABI info - done
+[2.915s] -- Check for working C compiler: /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+[2.916s] -- Detecting C compile features
+[2.917s] -- Detecting C compile features - done
+[2.941s] -- Configuring done
+[2.995s] -- Generating done
+[3.004s] -- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[3.011s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DIDF_INCLUDES=-I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override -I/home/fercikmate/esp/esp-idf/components/riscv/include -I/home/fercikmate/esp/esp-idf/components/esp_app_format/include -I/home/fercikmate/esp/esp-idf/components/esp_bootloader_format/include -I/home/fercikmate/esp/esp-idf/components/app_update/include -I/home/fercikmate/esp/esp-idf/components/esp_partition/include -I/home/fercikmate/esp/esp-idf/components/efuse/include -I/home/fercikmate/esp/esp-idf/components/efuse/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_security/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gpio/include -I/home/fercikmate/esp/esp-idf/components/esp_pm/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/port/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/include -I/home/fercikmate/esp/esp-idf/components/mbedtls/mbedtls/library -I/home/fercikmate/esp/esp-idf/components/mbedtls/esp_crt_bundle/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/include -I/home/fercikmate/esp/esp-idf/components/bootloader_support/bootloader_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_mm/include -I/home/fercikmate/esp/esp-idf/components/spi_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_usb_cdc_rom_console/include -I/home/fercikmate/esp/esp-idf/components/esp_system/include -I/home/fercikmate/esp/esp-idf/components/esp_common/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/esp_rom/esp32c6 -I/home/fercikmate/esp/esp-idf/components/hal/platform_port/include -I/home/fercikmate/esp/esp-idf/components/hal/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/hal/include -I/home/fercikmate/esp/esp-idf/components/log/include -I/home/fercikmate/esp/esp-idf/components/heap/include -I/home/fercikmate/esp/esp-idf/components/heap/tlsf -I/home/fercikmate/esp/esp-idf/components/soc/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6 -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/soc/esp32c6/register -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/include/soc -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/dma/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/ldo/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/debug_probe/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/etm/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/power_supply/include -I/home/fercikmate/esp/esp-idf/components/esp_hw_support/modem/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include -I/home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/config/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/home/fercikmate/esp/esp-idf/components/freertos/esp_additions/include -I/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include -I/home/fercikmate/esp/esp-idf/components/pthread/include -I/home/fercikmate/esp/esp-idf/components/esp_timer/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_gptimer/include -I/home/fercikmate/esp/esp-idf/components/esp_ringbuf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_uart/include -I/home/fercikmate/esp/esp-idf/components/app_trace/include -I/home/fercikmate/esp/esp-idf/components/esp_event/include -I/home/fercikmate/esp/esp-idf/components/nvs_flash/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/include -I/home/fercikmate/esp/esp-idf/components/esp_phy/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_usb_serial_jtag/include -I/home/fercikmate/esp/esp-idf/components/esp_vfs_console/include -I/home/fercikmate/esp/esp-idf/components/vfs/include -I/home/fercikmate/esp/esp-idf/components/lwip/include -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps -I/home/fercikmate/esp/esp-idf/components/lwip/include/apps/sntp -I/home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/freertos/include/ -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys -I/home/fercikmate/esp/esp-idf/components/esp_netif/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/port/include -I/home/fercikmate/esp/esp-idf/components/wpa_supplicant/esp_supplicant/include -I/home/fercikmate/esp/esp-idf/components/esp_coex/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/include/local -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/include -I/home/fercikmate/esp/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_spi/include -I/home/fercikmate/esp/esp-idf/components/esp_gdbstub/include -I/home/fercikmate/esp/esp-idf/components/unity/include -I/home/fercikmate/esp/esp-idf/components/unity/unity/src -I/home/fercikmate/esp/esp-idf/components/cmock/CMock/src -I/home/fercikmate/esp/esp-idf/components/console//home/fercikmate/esp/esp-idf/components/console -I/home/fercikmate/esp/esp-idf/components/esp_driver_pcnt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_mcpwm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ana_cmpr/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2s/include -I/home/fercikmate/esp/esp-idf/components/sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sd_intf/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdmmc/legacy/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdspi/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_dac/./include -I/home/fercikmate/esp/esp-idf/components/esp_driver_bitscrambler/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_rmt/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_tsens/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_sdm/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_i2c/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ledc/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_parlio/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_twai/include -I/home/fercikmate/esp/esp-idf/components/driver/deprecated -I/home/fercikmate/esp/esp-idf/components/driver/i2c/include -I/home/fercikmate/esp/esp-idf/components/driver/touch_sensor/include -I/home/fercikmate/esp/esp-idf/components/driver/twai/include -I/home/fercikmate/esp/esp-idf/components/http_parser/. -I/home/fercikmate/esp/esp-idf/components/esp-tls//home/fercikmate/esp/esp-idf/components/esp-tls -I/home/fercikmate/esp/esp-idf/components/esp-tls/esp-tls-crypto -I/home/fercikmate/esp/esp-idf/components/esp_adc/include -I/home/fercikmate/esp/esp-idf/components/esp_adc/interface -I/home/fercikmate/esp/esp-idf/components/esp_adc/esp32c6/include -I/home/fercikmate/esp/esp-idf/components/esp_blockdev/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_isp/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_cam/interface -I/home/fercikmate/esp/esp-idf/components/esp_driver_i3c/include -I/home/fercikmate/esp/esp-idf/components/esp_psram/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_jpeg/include -I/home/fercikmate/esp/esp-idf/components/esp_driver_ppa/include -I/home/fercikmate/esp/esp-idf/components/esp_eth/include -I/home/fercikmate/esp/esp-idf/components/esp_hid/include -I/home/fercikmate/esp/esp-idf/components/tcp_transport/include -I/home/fercikmate/esp/esp-idf/components/esp_http_client/include -I/home/fercikmate/esp/esp-idf/components/esp_http_server/include -I/home/fercikmate/esp/esp-idf/components/esp_https_ota/include -I/home/fercikmate/esp/esp-idf/components/esp_https_server/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/include -I/home/fercikmate/esp/esp-idf/components/esp_lcd/interface -I/home/fercikmate/esp/esp-idf/components/protobuf-c/protobuf-c -I/home/fercikmate/esp/esp-idf/components/protocomm/include/common -I/home/fercikmate/esp/esp-idf/components/protocomm/include/security -I/home/fercikmate/esp/esp-idf/components/protocomm/include/transports -I/home/fercikmate/esp/esp-idf/components/protocomm/include/crypto/srp6a -I/home/fercikmate/esp/esp-idf/components/protocomm/proto-c -I/home/fercikmate/esp/esp-idf/components/esp_local_ctrl/include -I/home/fercikmate/esp/esp-idf/components/esp_tee/include -I/home/fercikmate/esp/esp-idf/components/wear_levelling/include -I/home/fercikmate/esp/esp-idf/components/fatfs/diskio -I/home/fercikmate/esp/esp-idf/components/fatfs/src -I/home/fercikmate/esp/esp-idf/components/fatfs/vfs -I/home/fercikmate/esp/esp-idf/components/idf_test/include -I/home/fercikmate/esp/esp-idf/components/idf_test/include/esp32c6 -I/home/fercikmate/esp/esp-idf/components/ieee802154/include -I/home/fercikmate/esp/esp-idf/components/json/cJSON -I/home/fercikmate/esp/esp-idf/components/mqtt//home/fercikmate/esp/esp-idf/components/mqtt/esp-mqtt/include -I/home/fercikmate/esp/esp-idf/components/nvs_sec_provider/include -I/home/fercikmate/esp/esp-idf/components/rt/include -I/home/fercikmate/esp/esp-idf/components/spiffs/include -I/home/fercikmate/esp/esp-idf/components/wifi_provisioning/include -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/main/. -I/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/network_interfaces -DCMAKE_C_STANDARD=11 -DUCLIENT_C_STANDARD=11 -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DUCLIENT_PIC=OFF -DUCLIENT_PROFILE_DISCOVERY=ON -DUCLIENT_PROFILE_UDP=ON -DUCLIENT_PROFILE_CUSTOM_TRANSPORT=ON -DUCLIENT_PROFILE_SERIAL=OFF -DUCLIENT_PROFILE_TCP=OFF -DUCLIENT_MIN_HEARTBEAT_TIME_INTERVAL=1 -DCMAKE_INSTALL_PREFIX=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install
+[3.018s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake --build /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[3.046s] gmake[1]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[3.097s] gmake[2]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[3.105s] gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[3.128s] gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[3.133s] gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[3.175s] [  3%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj[0m
+[3.176s] [  6%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj[0m
+[3.181s] [ 10%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj[0m
+[3.183s] [ 13%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj[0m
+[3.192s] [ 16%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj[0m
+[3.209s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj[0m
+[3.209s] [ 23%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj[0m
+[3.210s] [ 26%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj[0m
+[3.328s] [ 30%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj[0m
+[3.331s] [ 33%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj[0m
+[3.358s] [ 36%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj[0m
+[3.358s] [ 40%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj[0m
+[3.361s] [ 46%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj[0m
+[3.363s] [ 46%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj[0m
+[3.363s] [ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj[0m
+[3.369s] [ 53%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj[0m
+[3.384s] [ 56%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj[0m
+[3.401s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj[0m
+[3.414s] [ 63%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj[0m
+[3.414s] [ 66%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj[0m
+[3.421s] [ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj[0m
+[3.437s] [ 73%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.obj[0m
+[3.602s] [ 76%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.obj[0m
+[3.617s] [ 80%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj[0m
+[3.646s] [ 83%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.obj[0m
+[3.669s] [ 86%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.obj[0m
+[3.689s] [ 90%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c.obj[0m
+[3.709s] [ 93%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj[0m
+[3.744s] [ 96%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c.obj[0m
+[3.822s] In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/util/time.c:3:
+[3.822s] /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/time.h:11:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[3.823s]    11 | #include_next <time.h>
+[3.823s]       |  ^~~~~~~~~~~~
+[4.864s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+[4.865s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[4.877s] /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.877s]     8 | #include_next "lwip/sockets.h"
+[4.878s]       |  ^~~~~~~~~~~~
+[4.878s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+[4.878s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[4.878s] /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.878s]     8 | #include_next "lwip/sockets.h"
+[4.878s]       |  ^~~~~~~~~~~~
+[4.879s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+[4.879s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+[4.893s]                  from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+[4.893s]                  from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+[4.893s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[4.894s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[4.894s]                  from /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:
+[4.894s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.894s]     3 | #include_next <assert.h>
+[4.894s]       |  ^~~~~~~~~~~~
+[4.895s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[4.895s]                  from /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:
+[4.896s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.896s]     3 | #include_next <assert.h>
+[4.896s]       |  ^~~~~~~~~~~~
+[4.896s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h:16,
+[4.896s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+[4.901s]                  from /home/fercikmate/esp/esp-idf/components/esp_system/include/esp_task.h:24,
+[4.902s]                  from /home/fercikmate/esp/esp-idf/components/lwip/port/include/lwipopts.h:20,
+[4.902s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[4.903s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[4.903s]                  from /home/fercikmate/esp/esp-idf/components/lwip/port/include/arpa/inet.h:10,
+[4.904s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[4.909s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.910s]     3 | #include_next <assert.h>
+[4.910s]       |  ^~~~~~~~~~~~
+[4.910s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+[4.910s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+[4.911s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+[4.911s] /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.911s]    10 | #include_next <stdio.h>
+[4.912s]       |  ^~~~~~~~~~~~
+[4.912s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+[4.912s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+[4.912s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+[4.912s] /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.913s]    10 | #include_next <stdio.h>
+[4.914s]       |  ^~~~~~~~~~~~
+[4.914s] In file included from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:64,
+[4.914s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+[4.914s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69:
+[4.914s] /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.915s]    10 | #include_next <stdio.h>
+[4.915s]       |  ^~~~~~~~~~~~
+[4.915s] In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+[4.915s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+[4.915s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+[4.916s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.916s]     3 | #include_next <assert.h>
+[4.916s]       |  ^~~~~~~~~~~~
+[4.943s] In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+[4.943s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+[4.943s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+[4.944s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.944s]     3 | #include_next <assert.h>
+[4.944s]       |  ^~~~~~~~~~~~
+[4.944s] In file included from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:12,
+[4.944s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:11,
+[4.944s]                  from /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:65:
+[4.945s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.945s]     3 | #include_next <assert.h>
+[4.945s]       |  ^~~~~~~~~~~~
+[4.945s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+[4.946s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+[4.946s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+[4.946s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.946s]     3 | #include_next <assert.h>
+[4.946s]       |  ^~~~~~~~~~~~
+[4.946s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+[4.947s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+[4.947s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+[4.947s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.947s]     3 | #include_next <assert.h>
+[4.947s]       |  ^~~~~~~~~~~~
+[4.947s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_assert.h:9,
+[4.948s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:39,
+[4.948s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:18:
+[4.948s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.948s]     3 | #include_next <assert.h>
+[4.949s]       |  ^~~~~~~~~~~~
+[4.949s] In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+[4.949s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+[4.949s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+[4.950s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+[4.950s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.950s]     3 | #include_next <assert.h>
+[4.950s]       |  ^~~~~~~~~~~~
+[4.950s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+[4.951s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+[4.951s]    44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+[4.951s]       |                                                ~~~~^~~~~~~~~~
+[4.951s] In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+[4.951s]                  from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+[4.951s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+[4.952s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+[4.952s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[4.952s]    42 | #define REG_READ(_r) ({                                                                                                \
+[4.952s]       |                      ^
+[4.952s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+[4.962s]    56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+[4.962s]       |            ^~~~~~~~
+[4.963s] In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+[4.963s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+[4.963s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+[4.963s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+[4.964s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.964s]     3 | #include_next <assert.h>
+[4.964s]       |  ^~~~~~~~~~~~
+[4.964s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+[4.964s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+[4.965s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+[4.965s]    44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+[4.965s]       |                                                ~~~~^~~~~~~~~~
+[4.965s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[4.965s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[4.966s]       |                                ^
+[4.966s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[4.966s]   109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[4.966s]       |                            ^~~~~~~~~~~~
+[4.966s] In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+[4.966s]                  from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+[4.966s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+[4.967s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+[4.967s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[4.967s]    42 | #define REG_READ(_r) ({                                                                                                \
+[4.967s]       |                      ^
+[4.967s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+[4.967s]   110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[4.968s]       |                           ^~~~~~~~
+[4.968s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[4.968s]    42 | #define REG_READ(_r) ({                                                                                                \
+[4.968s]       |                      ^
+[4.968s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+[4.968s]    56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+[4.978s]       |            ^~~~~~~~
+[4.980s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[4.985s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[4.985s]       |                              ^
+[4.985s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+[4.986s]   112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[4.986s]       |     ^~~~~~~~~~
+[4.986s] In file included from /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:10,
+[4.986s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/interrupt.h:25,
+[4.986s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:15,
+[4.986s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:19:
+[4.987s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[4.987s]     3 | #include_next <assert.h>
+[4.987s]       |  ^~~~~~~~~~~~
+[4.987s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'assert_valid_rv_int_num':
+[4.987s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:44:52: warning: unused parameter 'rv_int_num' [-Wunused-parameter]
+[4.987s]    44 | FORCE_INLINE_ATTR void assert_valid_rv_int_num(int rv_int_num)
+[4.993s]       |                                                ~~~~^~~~~~~~~~
+[4.996s] In file included from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/register/soc/interrupt_matrix_reg.h:8,
+[5.001s]                  from /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/interrupt_reg.h:8,
+[5.001s]                  from /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:12:
+[5.001s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_intr_get_enabled_mask':
+[5.002s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.002s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.002s]       |                      ^
+[5.002s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:56:12: note: in expansion of macro 'REG_READ'
+[5.002s]    56 |     return REG_READ(INTERRUPT_CORE0_CPU_INT_ENABLE_REG);
+[5.003s]       |            ^~~~~~~~
+[5.003s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+[5.003s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.003s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.003s]       |                                ^
+[5.003s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.003s]   109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.004s]       |                            ^~~~~~~~~~~~
+[5.004s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.004s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.004s]       |                      ^
+[5.004s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+[5.004s]   110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[5.009s]       |                           ^~~~~~~~
+[5.009s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.010s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.010s]       |                              ^
+[5.010s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+[5.012s]   112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.012s]       |     ^~~~~~~~~~
+[5.012s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h: In function 'rv_utils_set_intlevel_regval':
+[5.019s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.019s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.020s]       |                                ^
+[5.020s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:109:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.020s]   109 |     uint32_t old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.025s]       |                            ^~~~~~~~~~~~
+[5.025s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+[5.026s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.026s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.026s]       |                      ^
+[5.026s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:110:27: note: in expansion of macro 'REG_READ'
+[5.026s]   110 |     uint32_t old_thresh = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[5.027s]       |                           ^~~~~~~~
+[5.027s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.027s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.027s]       |                              ^
+[5.027s] /home/fercikmate/esp/esp-idf/components/riscv/include/esp_private/interrupt_plic.h:112:5: note: in expansion of macro 'RV_SET_CSR'
+[5.027s]   112 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.028s]       |     ^~~~~~~~~~
+[5.028s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+[5.028s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.028s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.028s]       |                          ^
+[5.028s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+[5.036s]   111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+[5.041s]       |                ^~~~~~~~~~~
+[5.041s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.041s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.042s]       |                          ^
+[5.042s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+[5.042s]   113 |         return RV_READ_CSR(CSR_PCCR_USER);
+[5.042s]       |                ^~~~~~~~~~~
+[5.042s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+[5.042s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.043s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.043s]       |                                ^
+[5.043s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.043s]   128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+[5.043s]       |         ^~~~~~~~~~~~
+[5.043s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.044s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.044s]       |                                ^
+[5.044s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.044s]   130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+[5.044s]       |         ^~~~~~~~~~~~
+[5.051s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+[5.052s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.052s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.052s]       |                                ^
+[5.052s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.052s]   143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+[5.052s]       |     ^~~~~~~~~~~~
+[5.057s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_get_cycle_count':
+[5.057s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+[5.058s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.058s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.058s]       |                                ^
+[5.058s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.058s]   150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+[5.059s]       |         ^~~~~~~~~~~~
+[5.059s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.059s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.059s]       |                          ^
+[5.059s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+[5.060s]   111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+[5.060s]       |                ^~~~~~~~~~~
+[5.060s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.060s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.060s]       |                                ^
+[5.060s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.061s]   152 |         RV_WRITE_CSR(utvec, xtvec_val);
+[5.062s]       |         ^~~~~~~~~~~~
+[5.062s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.062s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.062s]       |                          ^
+[5.062s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+[5.062s]   113 |         return RV_READ_CSR(CSR_PCCR_USER);
+[5.063s]       |                ^~~~~~~~~~~
+[5.063s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+[5.063s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.063s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.063s]       |                                ^
+[5.063s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.064s]   164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.064s]       |                            ^~~~~~~~~~~~
+[5.064s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+[5.064s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.064s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.065s]       |                                ^
+[5.065s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.065s]   128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+[5.065s]       |         ^~~~~~~~~~~~
+[5.065s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.065s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.066s]       |                                ^
+[5.066s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.066s]   130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+[5.066s]       |         ^~~~~~~~~~~~
+[5.066s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.066s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.066s]       |                              ^
+[5.067s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+[5.067s]   166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.068s]       |     ^~~~~~~~~~
+[5.068s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+[5.068s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.069s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.069s]       |                                ^
+[5.070s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.073s]   176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.073s]       |                            ^~~~~~~~~~~~
+[5.074s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.074s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.074s]       |                              ^
+[5.074s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+[5.074s]   178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.074s]       |     ^~~~~~~~~~
+[5.075s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+[5.075s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.075s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.075s]       |                              ^
+[5.075s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+[5.075s]   187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+[5.075s]       |     ^~~~~~~~~~
+[5.075s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+[5.075s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.075s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.076s]       |                                ^
+[5.076s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.076s]   200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.076s]       |     ^~~~~~~~~~~~
+[5.076s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+[5.076s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.076s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.076s]       |                                ^
+[5.076s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.076s]   143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+[5.076s]       |     ^~~~~~~~~~~~
+[5.077s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+[5.077s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.077s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.077s]       |                                ^
+[5.078s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.078s]   366 |     RV_WRITE_CSR(tselect, bp_num);
+[5.078s]       |     ^~~~~~~~~~~~
+[5.078s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.078s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.078s]       |                                ^
+[5.078s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.079s]   367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.079s]       |     ^~~~~~~~~~~~
+[5.079s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.079s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.079s]       |                                ^
+[5.079s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.080s]   368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+[5.080s]       |     ^~~~~~~~~~~~
+[5.080s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.080s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.080s]       |                                ^
+[5.080s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.081s]   369 |     RV_WRITE_CSR(tdata2, bp_addr);
+[5.081s]       |     ^~~~~~~~~~~~
+[5.081s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+[5.081s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.081s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.081s]       |                                ^
+[5.082s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.082s]   378 |     RV_WRITE_CSR(tselect, wp_num);
+[5.082s]       |     ^~~~~~~~~~~~
+[5.082s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.083s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.084s]       |                                ^
+[5.085s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.085s]   379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.085s]       |     ^~~~~~~~~~~~
+[5.086s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.086s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.086s]       |                          ^
+[5.086s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:111:16: note: in expansion of macro 'RV_READ_CSR'
+[5.086s]   111 |         return RV_READ_CSR(CSR_PCCR_MACHINE);
+[5.086s]       |                ^~~~~~~~~~~
+[5.087s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+[5.087s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.087s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.087s]       |                                ^
+[5.088s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.089s]   150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+[5.090s]       |         ^~~~~~~~~~~~
+[5.090s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.090s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.091s]       |                          ^
+[5.091s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:113:16: note: in expansion of macro 'RV_READ_CSR'
+[5.091s]   113 |         return RV_READ_CSR(CSR_PCCR_USER);
+[5.092s]       |                ^~~~~~~~~~~
+[5.094s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.094s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.094s]       |                                ^
+[5.095s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.095s]   152 |         RV_WRITE_CSR(utvec, xtvec_val);
+[5.095s]       |         ^~~~~~~~~~~~
+[5.095s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_cycle_count':
+[5.095s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.095s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.095s]       |                                ^
+[5.096s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:128:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.096s]   128 |         RV_WRITE_CSR(CSR_PCCR_MACHINE, ccount);
+[5.096s]       |         ^~~~~~~~~~~~
+[5.096s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.096s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.096s]       |                                ^
+[5.096s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:130:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.097s]   130 |         RV_WRITE_CSR(CSR_PCCR_USER, ccount);
+[5.097s]       |         ^~~~~~~~~~~~
+[5.097s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_mtvec':
+[5.097s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.097s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.097s]       |                                ^
+[5.098s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:143:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.098s]   143 |     RV_WRITE_CSR(mtvec, mtvec_val | MTVEC_MODE_CSR);
+[5.098s]       |     ^~~~~~~~~~~~
+[5.098s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_xtvec':
+[5.098s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.099s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.099s]       |                                ^
+[5.099s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:150:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.099s]   150 |         RV_WRITE_CSR(mtvec, xtvec_val);
+[5.099s]       |         ^~~~~~~~~~~~
+[5.099s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+[5.100s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.100s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.100s]       |                                ^
+[5.100s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:152:9: note: in expansion of macro 'RV_WRITE_CSR'
+[5.101s]   152 |         RV_WRITE_CSR(utvec, xtvec_val);
+[5.101s]       |         ^~~~~~~~~~~~
+[5.102s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.104s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.104s]       |                                ^
+[5.106s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.107s]   164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.107s]       |                            ^~~~~~~~~~~~
+[5.107s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.108s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.109s]       |                                ^
+[5.110s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.110s]   380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+[5.110s]       |     ^~~~~~~~~~~~
+[5.111s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_enable':
+[5.111s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.112s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.112s]       |                              ^
+[5.112s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+[5.112s]   166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.112s]       |     ^~~~~~~~~~
+[5.112s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.113s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.113s]       |                                ^
+[5.113s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:164:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.113s]   164 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.113s]       |                            ^~~~~~~~~~~~
+[5.114s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+[5.114s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.114s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.114s]       |                              ^
+[5.114s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:166:5: note: in expansion of macro 'RV_SET_CSR'
+[5.114s]   166 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.115s]       |     ^~~~~~~~~~
+[5.115s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.115s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.115s]       |                                ^
+[5.115s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.115s]   176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.115s]       |                            ^~~~~~~~~~~~
+[5.116s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_disable':
+[5.116s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.116s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.116s]       |                              ^
+[5.116s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+[5.116s]   178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.117s]       |     ^~~~~~~~~~
+[5.117s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.117s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.117s]       |                                ^
+[5.117s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:176:28: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.118s]   176 |     unsigned old_mstatus = RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.118s]       |                            ^~~~~~~~~~~~
+[5.118s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+[5.118s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.118s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.118s]       |                              ^
+[5.119s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:178:5: note: in expansion of macro 'RV_SET_CSR'
+[5.119s]   178 |     RV_SET_CSR(mstatus, old_mstatus & MSTATUS_MIE);
+[5.119s]       |     ^~~~~~~~~~
+[5.119s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.119s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.119s]       |                              ^
+[5.120s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+[5.120s]   187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+[5.120s]       |     ^~~~~~~~~~
+[5.120s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+[5.120s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_enable':
+[5.120s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.121s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.121s]       |                                ^
+[5.121s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.122s]   200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.122s]       |     ^~~~~~~~~~~~
+[5.122s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:214:30: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.122s]   214 | #define RV_SET_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.122s]       |                              ^
+[5.122s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:187:5: note: in expansion of macro 'RV_SET_CSR'
+[5.122s]   187 |     RV_SET_CSR(mstatus, MSTATUS_MIE);
+[5.123s]       |     ^~~~~~~~~~
+[5.123s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_intr_global_disable':
+[5.123s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:218:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.123s]   218 | #define RV_CLEAR_CSR(reg, bit) ({ unsigned long __tmp; \
+[5.123s]       |                                ^
+[5.124s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:200:5: note: in expansion of macro 'RV_CLEAR_CSR'
+[5.124s]   200 |     RV_CLEAR_CSR(mstatus, MSTATUS_MIE);
+[5.124s]       |     ^~~~~~~~~~~~
+[5.124s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+[5.124s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_breakpoint':
+[5.124s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.124s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.125s]       |                                ^
+[5.126s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.126s]   366 |     RV_WRITE_CSR(tselect, bp_num);
+[5.127s]       |     ^~~~~~~~~~~~
+[5.127s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.127s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.128s]       |                                ^
+[5.128s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:366:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.128s]   366 |     RV_WRITE_CSR(tselect, bp_num);
+[5.128s]       |     ^~~~~~~~~~~~
+[5.128s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.129s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.129s]       |                                ^
+[5.129s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.129s]   367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.130s]       |     ^~~~~~~~~~~~
+[5.130s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.130s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.130s]       |                                ^
+[5.131s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:367:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.131s]   367 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.132s]       |     ^~~~~~~~~~~~
+[5.132s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.132s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.132s]       |                                ^
+[5.133s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.133s]   368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+[5.133s]       |     ^~~~~~~~~~~~
+[5.133s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.134s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.134s]       |                                ^
+[5.134s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:368:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.134s]   368 |     RV_WRITE_CSR(tdata1, TDATA1_USER | TDATA1_MACHINE | TDATA1_EXECUTE);
+[5.135s]       |     ^~~~~~~~~~~~
+[5.135s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.135s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.135s]       |                                ^
+[5.136s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.136s]   369 |     RV_WRITE_CSR(tdata2, bp_addr);
+[5.136s]       |     ^~~~~~~~~~~~
+[5.137s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.137s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.137s]       |                                ^
+[5.137s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:369:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.138s]   369 |     RV_WRITE_CSR(tdata2, bp_addr);
+[5.138s]       |     ^~~~~~~~~~~~
+[5.138s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+[5.138s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_set_watchpoint':
+[5.138s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.138s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.139s]       |                                ^
+[5.139s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.139s]   378 |     RV_WRITE_CSR(tselect, wp_num);
+[5.139s]       |     ^~~~~~~~~~~~
+[5.139s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.139s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.140s]       |                                ^
+[5.146s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:378:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.147s]   378 |     RV_WRITE_CSR(tselect, wp_num);
+[5.148s]       |     ^~~~~~~~~~~~
+[5.148s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.149s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.150s]       |                                ^
+[5.151s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.151s]   379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.152s]       |     ^~~~~~~~~~~~
+[5.152s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.152s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.153s]       |                                ^
+[5.153s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:379:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.154s]   379 |     RV_WRITE_CSR(tcontrol, TCONTROL_MPTE | TCONTROL_MTE);
+[5.154s]       |     ^~~~~~~~~~~~
+[5.154s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.154s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.154s]       |                                ^
+[5.155s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.155s]   407 |     RV_WRITE_CSR(tdata2, match_pattern);
+[5.155s]       |     ^~~~~~~~~~~~
+[5.155s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.155s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.157s]       |                                ^
+[5.158s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.158s]   380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+[5.158s]       |     ^~~~~~~~~~~~
+[5.159s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.159s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.159s]       |                                ^
+[5.159s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:380:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.159s]   380 |     RV_WRITE_CSR(tdata1, TDATA1_USER                   |
+[5.159s]       |     ^~~~~~~~~~~~
+[5.160s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+[5.160s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.160s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.160s]       |                                ^
+[5.160s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.160s]   412 |     RV_WRITE_CSR(tselect, bp_num);
+[5.160s]       |     ^~~~~~~~~~~~
+[5.161s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.162s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.162s]       |                                ^
+[5.162s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.162s]   416 |     RV_WRITE_CSR(tdata1, 0);
+[5.163s]       |     ^~~~~~~~~~~~
+[5.163s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.163s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.163s]       |                                ^
+[5.163s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.164s]   407 |     RV_WRITE_CSR(tdata2, match_pattern);
+[5.164s]       |     ^~~~~~~~~~~~
+[5.164s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.164s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.164s]       |                                ^
+[5.164s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:407:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.165s]   407 |     RV_WRITE_CSR(tdata2, match_pattern);
+[5.166s]       |     ^~~~~~~~~~~~
+[5.166s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+[5.167s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.167s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.168s]       |                                ^
+[5.168s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.168s]   427 |     RV_WRITE_CSR(tselect, id);
+[5.169s]       |     ^~~~~~~~~~~~
+[5.169s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+[5.169s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_clear_breakpoint':
+[5.169s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.170s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.170s]       |                                ^
+[5.170s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.170s]   412 |     RV_WRITE_CSR(tselect, bp_num);
+[5.170s]       |     ^~~~~~~~~~~~
+[5.171s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.171s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.171s]       |                                ^
+[5.171s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:412:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.171s]   412 |     RV_WRITE_CSR(tselect, bp_num);
+[5.171s]       |     ^~~~~~~~~~~~
+[5.171s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.172s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.172s]       |                          ^
+[5.172s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+[5.172s]   428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+[5.172s]       |             ^~~~~~~~~~~
+[5.172s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.173s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.173s]       |                                ^
+[5.173s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.173s]   416 |     RV_WRITE_CSR(tdata1, 0);
+[5.174s]       |     ^~~~~~~~~~~~
+[5.174s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.174s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.174s]       |                                ^
+[5.174s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:416:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.175s]   416 |     RV_WRITE_CSR(tdata1, 0);
+[5.175s]       |     ^~~~~~~~~~~~
+[5.175s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+[5.175s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h: In function 'rv_utils_is_trigger_fired':
+[5.175s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.176s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.176s]       |                                ^
+[5.176s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.177s]   427 |     RV_WRITE_CSR(tselect, id);
+[5.178s]       |     ^~~~~~~~~~~~
+[5.178s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:207:32: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.178s]   207 | #define RV_WRITE_CSR(reg, val) ({ \
+[5.178s]       |                                ^
+[5.179s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:427:5: note: in expansion of macro 'RV_WRITE_CSR'
+[5.179s]   427 |     RV_WRITE_CSR(tselect, id);
+[5.179s]       |     ^~~~~~~~~~~~
+[5.179s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.180s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.180s]       |                          ^
+[5.180s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+[5.180s]   428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+[5.181s]       |             ^~~~~~~~~~~
+[5.181s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.181s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.181s]       |                          ^
+[5.181s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/rv_utils.h:428:13: note: in expansion of macro 'RV_READ_CSR'
+[5.182s]   428 |     return (RV_READ_CSR(tdata1) >> TDATA1_HIT_S) & 1;
+[5.182s]       |             ^~~~~~~~~~~
+[5.183s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+[5.183s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+[5.183s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+[5.184s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.184s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.184s]     3 | #include_next <assert.h>
+[5.185s]       |  ^~~~~~~~~~~~
+[5.185s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+[5.186s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+[5.186s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+[5.186s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.187s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.187s]     3 | #include_next <assert.h>
+[5.187s]       |  ^~~~~~~~~~~~
+[5.188s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+[5.188s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.188s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.188s]       |                          ^
+[5.189s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.189s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.189s]       |            ^~~~~~~~~~~
+[5.189s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+[5.189s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.190s]       |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+[5.190s]   205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+[5.190s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5.190s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.190s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.191s]       |            ^~~~~~~~~~~
+[5.191s] In file included from /home/fercikmate/esp/esp-idf/components/esp_common/include/esp_err.h:11,
+[5.191s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h:12,
+[5.191s]                  from /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:21:
+[5.191s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.192s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.192s]     3 | #include_next <assert.h>
+[5.192s]       |  ^~~~~~~~~~~~
+[5.193s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+[5.194s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+[5.195s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.196s]    51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+[5.197s]       |                                                                       ~~~~~~~~~~~~^~~~
+[5.198s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.198s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.198s]       |                          ^
+[5.198s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.198s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.198s]       |            ^~~~~~~~~~~
+[5.199s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+[5.199s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.199s]       |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+[5.199s]   205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+[5.199s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5.199s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.199s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.200s]       |            ^~~~~~~~~~~
+[5.200s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+[5.200s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h: In function 'esp_cpu_get_curr_privilege_level':
+[5.200s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.200s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.200s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.201s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+[5.201s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.201s]       |                                                                                      ~~~~~~~~^~~~~~~
+[5.201s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:26: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.202s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.202s]       |                          ^
+[5.202s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.202s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.202s]       |            ^~~~~~~~~~~
+[5.202s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+[5.202s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.203s]   174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+[5.203s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.203s] /home/fercikmate/esp/esp-idf/components/riscv/include/riscv/csr.h:204:27: warning: conversion to 'int' from 'long unsigned int' may change the sign of the result [-Wsign-conversion]
+[5.203s]   204 | #define RV_READ_CSR(reg) ({ unsigned long __tmp; \
+[5.203s]       |                          ~^~~~~~~~~~~~~~~~~~~~~~~~
+[5.204s]   205 |   asm volatile ("csrr %0, " _CSR_STRINGIFY(reg) : "=r"(__tmp)); __tmp; })
+[5.204s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5.204s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/esp_cpu.h:154:12: note: in expansion of macro 'RV_READ_CSR'
+[5.204s]   154 |     return RV_READ_CSR(CSR_PRV_MODE);
+[5.204s]       |            ^~~~~~~~~~~
+[5.204s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+[5.205s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.205s]    51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+[5.205s]       |                                                                       ~~~~~~~~~~~~^~~~
+[5.206s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_initialize':
+[5.206s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:51:83: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.206s]    51 | static inline void __attribute__((always_inline)) spinlock_initialize(spinlock_t *lock)
+[5.206s]       |                                                                       ~~~~~~~~~~~~^~~~
+[5.206s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+[5.206s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.207s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.207s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.207s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+[5.207s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.207s]       |                                                                                      ~~~~~~~~^~~~~~~
+[5.207s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_acquire':
+[5.208s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+[5.208s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.208s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.208s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.208s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:74:94: warning: unused parameter 'timeout' [-Wunused-parameter]
+[5.208s]    74 | static inline bool __attribute__((always_inline)) spinlock_acquire(spinlock_t *lock, int32_t timeout)
+[5.209s]       |                                                                                      ~~~~~~~~^~~~~~~
+[5.209s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h: In function 'spinlock_release':
+[5.209s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.209s]   174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+[5.209s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.209s] /home/fercikmate/esp/esp-idf/components/esp_hw_support/include/spinlock.h:174:80: warning: unused parameter 'lock' [-Wunused-parameter]
+[5.209s]   174 | static inline void __attribute__((always_inline)) spinlock_release(spinlock_t *lock)
+[5.210s]       |                                                                    ~~~~~~~~~~~~^~~~
+[5.210s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+[5.211s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.211s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.211s]       |                      ^
+[5.211s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+[5.211s]   699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[5.211s]       |                          ^~~~~~~~
+[5.212s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+[5.212s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.212s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.212s]       |                      ^
+[5.212s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+[5.212s]   699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[5.212s]       |                          ^~~~~~~~
+[5.212s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h: In function 'xPortCanYield':
+[5.213s] /home/fercikmate/esp/esp-idf/components/soc/esp32c6/include/soc/soc.h:42:22: warning: ISO C forbids braced-groups within expressions [-Wpedantic]
+[5.213s]    42 | #define REG_READ(_r) ({                                                                                                \
+[5.213s]       |                      ^
+[5.213s] /home/fercikmate/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h:699:26: note: in expansion of macro 'REG_READ'
+[5.213s]   699 |     uint32_t threshold = REG_READ(INTERRUPT_CURRENT_CORE_INT_THRESH_REG);
+[5.214s]       |                          ^~~~~~~~
+[5.214s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+[5.214s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[5.214s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[5.215s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+[5.215s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.215s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.215s]     3 | #include_next <assert.h>
+[5.215s]       |  ^~~~~~~~~~~~
+[5.216s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+[5.216s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[5.216s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[5.217s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+[5.217s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.217s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.217s]     3 | #include_next <assert.h>
+[5.218s]       |  ^~~~~~~~~~~~
+[5.221s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h:13,
+[5.222s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[5.222s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[5.222s]                  from /home/fercikmate/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52:
+[5.222s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h: At top level:
+[5.222s] /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.222s]     3 | #include_next <assert.h>
+[5.223s]       |  ^~~~~~~~~~~~
+[5.223s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/esp32xx/include/sys/socket.h:15,
+[5.223s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:20:
+[5.223s] /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/sockets.h:8:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.223s]     8 | #include_next "lwip/sockets.h"
+[5.223s]       |  ^~~~~~~~~~~~
+[5.224s] In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:6:
+[5.224s] /home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/sys/time.h:21:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.224s]    21 | #include_next <sys/time.h>
+[5.224s]       |  ^~~~~~~~~~~~
+[5.224s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/include/netdb.h:14,
+[5.225s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:7:
+[5.225s] /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/netdb.h:9:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.225s]     9 | #include_next "lwip/netdb.h"
+[5.225s]       |  ^~~~~~~~~~~~
+[5.225s] In file included from /home/fercikmate/esp/esp-idf/components/lwip/port/include/netdb.h:14,
+[5.226s]                  from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:5:
+[5.226s] /home/fercikmate/esp/esp-idf/components/lwip/include/lwip/netdb.h:9:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+[5.226s]     9 | #include_next "lwip/netdb.h"
+[5.226s]       |  ^~~~~~~~~~~~
+[11.045s] [100%] [32m[1mLinking C static library libmicroxrcedds_client.a[0m
+[11.260s] gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[11.297s] [100%] Built target microxrcedds_client
+[11.302s] gmake[2]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[11.566s] gmake[1]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[11.567s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake --build /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[11.571s] Invoking command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake --install /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[11.602s] -- Install configuration: "Release"
+[11.602s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/libmicroxrcedds_client.a
+[11.605s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client
+[11.610s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util
+[11.613s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util/ping.h
+[11.614s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util/time.h
+[11.615s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/client.h
+[11.615s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core
+[11.616s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/type
+[11.617s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/type/xrce_types.h
+[11.618s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/communication
+[11.620s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/communication/communication.h
+[11.625s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session
+[11.627s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/session_info.h
+[11.627s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream
+[11.630s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/stream_id.h
+[11.630s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[11.631s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/seq_num.h
+[11.631s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[11.632s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+[11.632s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+[11.633s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/stream_storage.h
+[11.633s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/reliable_stream.h
+[11.638s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/session.h
+[11.638s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/read_access.h
+[11.639s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_bin.h
+[11.639s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/time_sync.h
+[11.641s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_ref.h
+[11.642s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_xml.h
+[11.642s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/object_id.h
+[11.642s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/common_create_entities.h
+[11.642s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/write_access.h
+[11.642s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/visibility.h
+[11.644s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/defines.h
+[11.645s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/transport.h
+[11.647s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile
+[11.649s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport
+[11.652s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial
+[11.658s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[11.659s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport.h
+[11.659s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[11.659s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[11.660s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[11.661s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[11.661s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp
+[11.662s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[11.663s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[11.665s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[11.668s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[11.675s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[11.677s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[11.681s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/ip.h
+[11.682s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing
+[11.683s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[11.684s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can
+[11.685s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport_posix.h
+[11.688s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport.h
+[11.693s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/custom
+[11.694s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/custom/custom_transport.h
+[11.695s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/multithread
+[11.696s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/multithread/multithread.h
+[11.697s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/discovery
+[11.700s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/discovery/discovery.h
+[11.701s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/config.h
+[11.703s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[11.705s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[11.710s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[11.710s] -- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[11.719s] Invoked command in '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy/bin:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format/bin:/home/fercikmate/.local/bin:/home/fercikmate/esp/esp-idf/components/espcoredump:/home/fercikmate/esp/esp-idf/components/partition_table:/home/fercikmate/esp/esp-idf/components/app_update:/home/fercikmate/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin:/home/fercikmate/.espressif/tools/xtensa-esp-elf/esp-15.1.0_20250607/xtensa-esp-elf/bin:/home/fercikmate/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin:/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin:/home/fercikmate/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/home/fercikmate/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin:/home/fercikmate/esp/esp-idf/tools:/home/fercikmate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/ferci/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/mnt/c/Program Files/OpenSSL-Win64/bin:/snap/bin PYTHONPATH=/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc X_CXXFLAGS=-march=rv32imac_zicsr_zifencei_zaamo_zalrsc /usr/bin/cmake --install /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client

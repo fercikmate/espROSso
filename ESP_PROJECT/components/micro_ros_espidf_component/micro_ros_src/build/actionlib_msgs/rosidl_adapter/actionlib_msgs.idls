@@ -1,0 +1,3 @@
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalID.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatus.idl
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatusArray.idl

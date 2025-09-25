@@ -1,0 +1,4 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rclc/rclc_parameter/src/rclc_parameter/parameter_server.c:20:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/time.h:11:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   11 | #include_next <time.h>
+      |  ^~~~~~~~~~~~

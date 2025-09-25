@@ -1,0 +1,2 @@
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc librcl_lifecycle.a CMakeFiles/rcl_lifecycle.dir/src/com_interface.c.obj CMakeFiles/rcl_lifecycle.dir/src/default_state_machine.c.obj CMakeFiles/rcl_lifecycle.dir/src/rcl_lifecycle.c.obj CMakeFiles/rcl_lifecycle.dir/src/transition_map.c.obj
+/home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib librcl_lifecycle.a

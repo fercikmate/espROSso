@@ -1,0 +1,39 @@
+{
+  "package_name": "std_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_generator_type_description/std_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Bool.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Byte.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/ByteMultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Char.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/ColorRGBA.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Empty.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Float32.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Float32MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Float64.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Float64MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Header.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int16.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int16MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int32.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int32MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int64.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int64MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int8.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/Int8MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/MultiArrayDimension.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/MultiArrayLayout.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/String.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt16.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt16MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt32.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt32MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt64.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt64MultiArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt8.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/std_msgs/rosidl_adapter/std_msgs:msg/UInt8MultiArray.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,27 @@
+running egg_info
+creating ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info
+writing ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/dependency_links.txt
+writing requirements to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/requires.txt
+writing top-level names to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/top_level.txt
+writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/build
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/build/lib
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/build/lib/rosidl_pycommon
+copying rosidl_pycommon/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/build/lib/rosidl_pycommon
+running install
+running install_lib
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_pycommon
+copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/build/lib/rosidl_pycommon/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_pycommon
+byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_pycommon/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rosidl_pycommon -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_pycommon
+running install_egg_info
+Copying ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_pycommon-4.9.5-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rosidl_pycommon/install.log'

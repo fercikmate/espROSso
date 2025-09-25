@@ -1,0 +1,15 @@
+package.xml
+setup.py
+../../../build/test_ros2trace/test_ros2trace.egg-info/PKG-INFO
+../../../build/test_ros2trace/test_ros2trace.egg-info/SOURCES.txt
+../../../build/test_ros2trace/test_ros2trace.egg-info/dependency_links.txt
+../../../build/test_ros2trace/test_ros2trace.egg-info/requires.txt
+../../../build/test_ros2trace/test_ros2trace.egg-info/top_level.txt
+../../../build/test_ros2trace/test_ros2trace.egg-info/zip-safe
+resource/test_ros2trace
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py
+test_ros2trace/__init__.py

@@ -1,0 +1,27 @@
+running egg_info
+creating ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info
+writing ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/PKG-INFO
+writing dependency_links to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/dependency_links.txt
+writing requirements to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/requires.txt
+writing top-level names to ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/top_level.txt
+writing manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+reading manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+writing manifest file '../../../build/test_tracetools_launch/test_tracetools_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/build
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/build/lib
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/build/lib/test_tracetools_launch
+copying test_tracetools_launch/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/build/lib/test_tracetools_launch
+running install
+running install_lib
+creating /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/test_tracetools_launch
+copying /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/build/lib/test_tracetools_launch/__init__.py -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/test_tracetools_launch
+byte-compiling /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/test_tracetools_launch/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/test_tracetools_launch
+copying resource/test_tracetools_launch -> /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/test_tracetools_launch/test_tracetools_launch.egg-info to /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/test_tracetools_launch-8.6.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/test_tracetools_launch/install.log'

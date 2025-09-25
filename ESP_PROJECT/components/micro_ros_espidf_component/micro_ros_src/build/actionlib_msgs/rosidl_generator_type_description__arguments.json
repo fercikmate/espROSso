@@ -1,0 +1,13 @@
+{
+  "package_name": "actionlib_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_generator_type_description/actionlib_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalID.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatus.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatusArray.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces",
+    "std_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/std_msgs"
+  ]
+}

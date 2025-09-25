@@ -1,0 +1,19 @@
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/transition_map.c:20:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c: In function 'rcl_lifecycle_state_machine_fini':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c:265:24: warning: unused variable 'error_string' [-Wunused-variable]
+  265 |     rcl_error_string_t error_string = rcl_get_error_string();
+      |                        ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c:275:24: warning: unused variable 'error_string' [-Wunused-variable]
+  275 |     rcl_error_string_t error_string = rcl_get_error_string();
+      |                        ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c: In function '_trigger_transition':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c:366:26: warning: unused variable 'error_string' [-Wunused-variable]
+  366 |       rcl_error_string_t error_string = rcl_get_error_string();
+      |                          ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c: In function 'rcl_print_transition_map':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_lifecycle/src/rcl_lifecycle.c:442:40: warning: unused variable 'transition' [-Wunused-variable]
+  442 |     const rcl_lifecycle_transition_t * transition = &transition_map->transitions[i];
+      |                                        ^~~~~~~~~~

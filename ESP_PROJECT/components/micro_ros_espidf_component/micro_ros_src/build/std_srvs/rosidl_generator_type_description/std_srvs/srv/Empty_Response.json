@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "std_srvs/srv/Empty_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "std_srvs/srv/Empty_Response",
+      "hash_string": "RIHS01_0a2858b3f60df644a61d0fa44cfc923a3d3628e0ad9c8ad8534b1a2c92a413dc"
+    }
+  ]
+}

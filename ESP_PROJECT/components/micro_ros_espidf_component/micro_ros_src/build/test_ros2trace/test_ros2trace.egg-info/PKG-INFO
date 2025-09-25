@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test_ros2trace
+Version: 8.6.0
+Summary: Tests for the ros2trace package.
+Home-page: https://github.com/ros2/ros2_tracing
+Author: Christophe Bedard
+Author-email: bedard.christophe@gmail.com
+Maintainer: Christophe Bedard
+Maintainer-email: bedard.christophe@gmail.com
+License: Apache 2.0
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"

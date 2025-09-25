@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/CMakeFiles/bootloader
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/CMakeFiles/bootloader.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/CMakeFiles/bootloader-complete.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

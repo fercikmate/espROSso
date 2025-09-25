@@ -1,0 +1,8 @@
+{
+  "package_name": "builtin_interfaces",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/builtin_interfaces/rosidl_generator_type_description/builtin_interfaces",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Duration.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Time.idl"
+  ]
+}

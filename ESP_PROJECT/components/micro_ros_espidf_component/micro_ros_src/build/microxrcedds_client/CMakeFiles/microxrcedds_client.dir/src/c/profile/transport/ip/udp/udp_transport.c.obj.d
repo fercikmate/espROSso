@@ -1,0 +1,28 @@
+CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.obj: \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport.c \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/multithread/multithread.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client/include/uxr/client/config.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/visibility.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/core/session/stream/stream_id.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.1.0/include/stdint.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/stdint.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/machine/_default_types.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/features.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/_newlib_version.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_intsup.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/riscv32-esp-elf/include/sys/_stdint.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_internal.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/ip/udp/udp_transport.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/ip/ip.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/core/type/xrce_types.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/defines.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/microcdr.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/visibility.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/config.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.1.0/include/stdbool.h \
+ /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.1.0/include/stddef.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/core/communication/communication.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/transport.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/custom/custom_transport.h \
+ /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h

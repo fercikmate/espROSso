@@ -1,0 +1,42 @@
+{
+  "package_name": "geometry_msgs",
+  "output_dir": "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_generator_type_description/geometry_msgs",
+  "idl_tuples": [
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Accel.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovariance.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovarianceStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Inertia.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/InertiaStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point32.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PointStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Polygon.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstance.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstanceStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose2D.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseArray.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovariance.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovarianceStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Quaternion.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/QuaternionStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Transform.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TransformStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Twist.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovariance.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovarianceStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3Stamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/VelocityStamped.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Wrench.idl",
+    "/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/WrenchStamped.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/std_msgs",
+    "builtin_interfaces:/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces"
+  ]
+}

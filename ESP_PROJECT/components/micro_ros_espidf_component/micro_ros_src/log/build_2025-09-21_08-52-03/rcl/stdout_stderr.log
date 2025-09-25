@@ -1,0 +1,253 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 15.1.0
+-- The CXX compiler identification is GNU 15.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/fercikmate/.espressif/tools/riscv32-esp-elf/esp-15.1.0_20250607/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.14.3 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rcl_interfaces: 2.3.0 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 4.9.5 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_adapter/cmake)
+-- Found rcl_logging_interface: 3.2.2 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl_logging_interface/cmake)
+-- Found rmw_implementation: 3.0.4 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rmw_implementation/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_microxrcedds: 6.0.0 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rmw_microxrcedds/cmake)
+-- Using RMW implementation 'rmw_microxrcedds'
+-- Found tracetools: 8.6.0 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/tracetools/cmake)
+-- Found type_description_interfaces: 2.3.0 (/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/type_description_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl
+gmake[1]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+gmake[2]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+gmake[3]: Entering directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+[  3%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/domain_id.c.obj[0m
+[ 12%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/dynamic_message_type_support.c.obj[0m
+[  9%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/common.c.obj[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/discovery_options.c.obj[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/client.c.obj[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/context.c.obj[0m
+[ 21%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/event.c.obj[0m
+[ 25%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.obj[0m
+[ 31%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init.c.obj[0m
+[ 34%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init_options.c.obj[0m
+[ 37%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/graph.c.obj[0m
+[ 40%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/guard_condition.c.obj[0m
+[ 43%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer.c.obj[0m
+[ 46%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/network_flow_endpoints.c.obj[0m
+[ 50%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node.c.obj[0m
+[ 53%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/publisher.c.obj[0m
+[ 56%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.obj[0m
+[ 59%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/remap.c.obj[0m
+[ 62%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_resolve_name.c.obj[0m
+[ 65%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/security.c.obj[0m
+[ 68%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.obj[0m
+[ 71%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service_event_publisher.c.obj[0m
+[ 75%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/type_hash.c.obj[0m
+[ 81%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_options.c.obj[0m
+[ 78%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/subscription.c.obj[0m
+[ 87%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/time.c.obj[0m
+[ 90%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service.c.obj[0m
+[ 96%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/timer.c.obj[0m
+[ 96%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.obj[0m
+[ 93%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/wait.c.obj[0m
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:20:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/type_hash.c:15:
+/home/fercikmate/esp/esp-idf/components/esp_libc/platform_include/stdio.h:10:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+   10 | #include_next <stdio.h>
+      |  ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/init_options.c: In function 'rcl_init_options_copy':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/init_options.c:114:24: warning: unused variable 'error_string' [-Wunused-variable]
+  114 |     rmw_error_string_t error_string = rmw_get_error_string();
+      |                        ^~~~~~~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:22:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c: In function 'rcl_validate_topic_name_with_size':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:58:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+   58 |   if (isdigit(topic_name[0]) != 0) {
+      |               ~~~~~~~~~~^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:84:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+   84 |         isdigit(topic_name[i]) != 0 &&
+      |                 ~~~~~~~~~~^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/validate_topic_name.c:179:29: warning: array subscript has type 'char' [-Wchar-subscripts]
+  179 |       if (isdigit(topic_name[i + 1]) != 0) {
+      |                   ~~~~~~~~~~^~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/dynamic_message_type_support.c: In function 'rcl_dynamic_message_type_support_handle_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/dynamic_message_type_support.c:104:28: warning: unused variable 'error_string' [-Wunused-variable]
+  104 |     rcutils_error_string_t error_string = rcutils_get_error_string();
+      |                            ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c: In function 'rcl_rmw_implementation_identifier_check':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:140:34: warning: unused variable 'rmw_error_msg' [-Wunused-variable]
+  140 |     const rcutils_error_string_t rmw_error_msg = rcl_get_error_string();
+      |                                  ^~~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '__validate_node_name_and_namespace':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:56:18: warning: unused variable 'msg' [-Wunused-variable]
+   56 |     const char * msg = rmw_namespace_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:68:18: warning: unused variable 'msg' [-Wunused-variable]
+   68 |     const char * msg = rmw_node_name_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c: In function 'rcl_resolve_name':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:49:28: warning: unused variable 'error' [-Wunused-variable]
+   49 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:97:28: warning: unused variable 'error' [-Wunused-variable]
+   97 |     rcutils_error_string_t error = rmw_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:114:28: warning: unused variable 'error' [-Wunused-variable]
+  114 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:33:27: warning: unused parameter 'local_args' [-Wunused-parameter]
+   33 |   const rcl_arguments_t * local_args,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:34:27: warning: unused parameter 'global_args' [-Wunused-parameter]
+   34 |   const rcl_arguments_t * global_args,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node_resolve_name.c:40:8: warning: unused parameter 'only_expand' [-Wunused-parameter]
+   40 |   bool only_expand,
+      |        ^
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '_rcl_wait_for_entities':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:562:28: warning: unused variable 'error' [-Wunused-variable]
+  562 |     rcutils_error_string_t error = rcutils_get_error_string();
+      |                            ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:596:32: warning: unused variable 'error' [-Wunused-variable]
+  596 |         rcutils_error_string_t error = rcutils_get_error_string();
+      |                                ^~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c: In function '__rcl_get_info_by_topic':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/graph.c:695:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+  695 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function '__validate_network_flow_endpoint_array':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:38:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+   38 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function 'rcl_publisher_get_network_flow_endpoints':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:70:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+   70 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c: In function 'rcl_subscription_get_network_flow_endpoints':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/network_flow_endpoints.c:101:22: warning: variable 'error_string' set but not used [-Wunused-but-set-variable]
+  101 |   rmw_error_string_t error_string;
+      |                      ^~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:156:18: warning: unused variable 'msg' [-Wunused-variable]
+  156 |     const char * msg = rmw_node_name_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:184:18: warning: unused variable 'msg' [-Wunused-variable]
+  184 |     const char * msg = rmw_namespace_validation_result_string(validation_result);
+      |                  ^~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:121:13: warning: variable 'fail_ret' set but not used [-Wunused-but-set-variable]
+  121 |   rcl_ret_t fail_ret = RCL_RET_ERROR;
+      |             ^~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_type_description_service_handle_request':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:532:16: warning: unused parameter 'node' [-Wunused-parameter]
+  532 |   rcl_node_t * node,
+      |   ~~~~~~~~~~~~~^~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:533:28: warning: unused parameter 'request_header' [-Wunused-parameter]
+  533 |   const rmw_request_id_t * request_header,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:534:72: warning: unused parameter 'request' [-Wunused-parameter]
+  534 |   const type_description_interfaces__srv__GetTypeDescription_Request * request,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:535:67: warning: unused parameter 'response' [-Wunused-parameter]
+  535 |   type_description_interfaces__srv__GetTypeDescription_Response * response)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c: In function 'rcl_node_type_description_service_init':
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/node.c:600:19: warning: unused parameter 'service' [-Wunused-parameter]
+  600 |   rcl_service_t * service,
+      |   ~~~~~~~~~~~~~~~~^~~~~~~
+In file included from /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl/src/rcl/wait.c:22:
+/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/include_override/assert.h:3:2: warning: '#include_next' is a GCC extension [-Wpedantic]
+    3 | #include_next <assert.h>
+      |  ^~~~~~~~~~~~
+[100%] [32m[1mLinking CXX static library librcl.a[0m
+gmake[3]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+[100%] Built target rcl
+gmake[2]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+gmake[1]: Leaving directory '/home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/build/rcl'
+-- Install configuration: "Release"
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/lib/librcl.a
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/library_path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/library_path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/rcl
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/rcl
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/ament_prefix_path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/ament_prefix_path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/path.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/environment/path.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/local_setup.bash
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/local_setup.sh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/local_setup.zsh
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/local_setup.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/package.dsv
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages/rcl
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rclExport.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rclExport-release.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rcl-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rclConfig.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rclConfig-version.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/package.xml
+-- Up-to-date: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/get_default_rcl_logging_implementation.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/share/rcl/cmake/rcl_set_symbol_visibility_hidden.cmake
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/discovery_options.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/guard_condition.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/node_options.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/type_description_conversions.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/service_introspection.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/init_options.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/context.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/arguments.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/allocator.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/rmw_implementation_identifier_check.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/publisher.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/domain_id.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/dynamic_message_type_support.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/event_callback.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/client.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/expand_topic_name.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/graph.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/validate_topic_name.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/time.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/log_level.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/macros.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/validate_enclave_name.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/security.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/lexer_lookahead.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/event.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/node_type_cache.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/logging_rosout.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/service.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/lexer.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/node.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/network_flow_endpoints.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/types.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/remap.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/init.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/error_handling.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/rcl.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/wait.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/visibility_control.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/type_hash.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/subscription.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/logging.h
+-- Installing: /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/micro_ros_src/install/include/rcl/rcl/timer.h

@@ -1,0 +1,17 @@
+source;share/type_description_interfaces/hook/cmake_prefix_path.ps1
+source;share/type_description_interfaces/hook/cmake_prefix_path.dsv
+source;share/type_description_interfaces/hook/cmake_prefix_path.sh
+source;share/type_description_interfaces/hook/path.ps1
+source;share/type_description_interfaces/hook/path.dsv
+source;share/type_description_interfaces/hook/path.sh
+source;share/type_description_interfaces/hook/pythonpath.ps1
+source;share/type_description_interfaces/hook/pythonpath.dsv
+source;share/type_description_interfaces/hook/pythonpath.sh
+source;share/type_description_interfaces/hook/pythonscriptspath.ps1
+source;share/type_description_interfaces/hook/pythonscriptspath.dsv
+source;share/type_description_interfaces/hook/pythonscriptspath.sh
+source;share/type_description_interfaces/local_setup.bash
+source;share/type_description_interfaces/local_setup.dsv
+source;share/type_description_interfaces/local_setup.ps1
+source;share/type_description_interfaces/local_setup.sh
+source;share/type_description_interfaces/local_setup.zsh
