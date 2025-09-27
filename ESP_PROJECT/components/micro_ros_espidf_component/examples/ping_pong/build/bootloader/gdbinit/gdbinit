@@ -1,0 +1,2 @@
+source /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/examples/ping_pong/build/bootloader/gdbinit/symbols
+source /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/examples/ping_pong/build/bootloader/gdbinit/connect

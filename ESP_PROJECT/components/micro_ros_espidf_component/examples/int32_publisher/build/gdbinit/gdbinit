@@ -1,0 +1,2 @@
+source /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/examples/int32_publisher/build/gdbinit/symbols
+source /home/fercikmate/ftn/osurv/espROSso/esp32try5/components/micro_ros_espidf_component/examples/int32_publisher/build/gdbinit/connect
