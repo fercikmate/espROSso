@@ -1,0 +1,2093 @@
+Command: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/fercikmate/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c6 --revision 0 --decode-panic backtrace /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/esp32try5.elf /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf -m '/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python' '/home/fercikmate/esp/esp-idf/tools/idf.py'
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x400228dc
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (23) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (23) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (76) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (245) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (264) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (274) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (274) boot: Disabling RNG early entropy source...[0m
+[0;32mI (284) cpu_start: Unicore app[0m
+[0;32mI (293) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (293) cpu_start: Pro cpu start user code[0m
+[0;32mI (293) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (295) app_init: Application information:[0m
+[0;32mI (299) app_init: Project name:     esp32try5[0m
+[0;32mI (303) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (308) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (313) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (317) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (322) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (340) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (345) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (351) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (357) spi_flash: detected chip: generic[0m
+[0;32mI (360) spi_flash: flash io: dio[0m
+[0;32mI (363) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (369) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (376) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (380) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (384) main_task: Started on CPU0[0m
+[0;32mI (384) main_task: Calling app_main()[0m
+[0;32mI (394) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (394) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (394) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (404) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (414) wifi:wifi firmware version: df85326[0m
+[0;32mI (414) wifi:wifi certification version: v7.0[0m
+[0;32mI (414) wifi:config NVS flash: enabled[0m
+[0;32mI (414) wifi:config nano formatting: disabled[0m
+[0;32mI (414) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (424) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (434) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (434) wifi:Init management short buffer num: 32[0m
+[0;32mI (434) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (444) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (444) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (454) wifi:Init static rx buffer num: 10[0m
+[0;32mI (454) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (464) wifi_init: rx ba win: 6[0m
+[0;32mI (464) wifi_init: accept mbox: 6[0m
+[0;32mI (464) wifi_init: tcpip mbox: 32[0m
+[0;32mI (464) wifi_init: udp mbox: 6[0m
+[0;32mI (474) wifi_init: tcp mbox: 6[0m
+[0;32mI (474) wifi_init: tcp tx win: 5760[0m
+[0;32mI (474) wifi_init: tcp rx win: 5760[0m
+[0;32mI (484) wifi_init: tcp mss: 1440[0m
+[0;32mI (484) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (484) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (494) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (494) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (504) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (594) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (594) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (604) wifi:(agc)0x600a7128:0xd21709f8, min.avgNF:0xce->0xd2(dB), RCalCount:0x170, min.RRssi:0x9f8(-96.50)[0m
+[0;32mI (614) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (614) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (624) wifi:enable tsf[0m
+[0;32mI (624) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (654) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (654) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (654) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (744) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (754) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (754) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (754) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (764) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (764) wifi:(trc)phytype:CBW20-SGI, snr:59, maxRate:144, highestRateIdx:0[0m
+[0;33mW (774) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (784) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:59, ampduState:wait operational[0m
+[0;32mI (794) wifi:ifidx:0, rssi:-38, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (804) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (854) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (854) wifi:security: WPA2-PSK, phy:bgn, rssi:-38, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (854) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (864) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (874) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (884) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (884) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (904) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (914) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (954) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (954) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (954) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (964) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;33mW (974) wifi:<ba-add>idx:0, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+[0;33mW (984) wifi:<ba-add>idx:1, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (1994) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (1994) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (1994) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2004) main_task: Returned from app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40826010  A0      : 0xcda76908  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40826004  S3      : 0x00000064  
+S4      : 0x4082601c  S5      : 0x40826028  S6      : 0x40826000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cbb  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (789) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd2055800, min.avgNF:0xce->0xd2(dB), RCalCount:0x55, min.RRssi:0x800(-128.00)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (819) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (839) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (839) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (849) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (859) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (869) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (869) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (869) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (879) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (879) wifi:(trc)phytype:CBW20-SGI, snr:58, maxRate:144, highestRateIdx:0[0m
+[0;33mW (889) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (899) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:58, ampduState:wait operational[0m
+[0;32mI (909) wifi:ifidx:0, rssi:-39, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (919) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (939) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (939) wifi:security: WPA2-PSK, phy:bgn, rssi:-39, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (949) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (949) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (959) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (969) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (999) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1009) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1049) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (2149) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2149) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2149) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2159) main_task: Returned from app_main()[0m
+[0;33mW (2179) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40826764  A0      : 0x7ef02920  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40826758  S3      : 0x00000064  
+S4      : 0x40826770  S5      : 0x4082677c  S6      : 0x40826754  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cbe  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd211c9ec, min.avgNF:0xce->0xd2(dB), RCalCount:0x11c, min.RRssi:0x9ec(-97.25)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (839) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (839) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (839) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (929) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (929) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (929) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (939) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (949) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (949) wifi:(trc)phytype:CBW20-SGI, snr:59, maxRate:144, highestRateIdx:0[0m
+[0;33mW (959) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (969) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:59, ampduState:wait operational[0m
+[0;32mI (979) wifi:ifidx:0, rssi:-38, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (989) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (1029) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (1039) wifi:security: WPA2-PSK, phy:bgn, rssi:-38, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (1039) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (1039) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (1059) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1059) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (1069) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1079) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (1089) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1099) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;33mW (1109) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (1129) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1129) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1139) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (2249) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2249) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2249) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2259) main_task: Returned from app_main()[0m
+[0;33mW (2279) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x408262dc  A0      : 0x3cc7d4c0  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x408262d0  S3      : 0x00000064  
+S4      : 0x408262e8  S5      : 0x408262f4  S6      : 0x408262cc  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cc1  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (519) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (548) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd212f9fe, min.avgNF:0xce->0xd2(dB), RCalCount:0x12f, min.RRssi:0x9fe(-96.12)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (819) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (819) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (829) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (839) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (839) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (839) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (849) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (859) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (869) wifi:(trc)phytype:CBW20-SGI, snr:57, maxRate:144, highestRateIdx:0[0m
+[0;33mW (869) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (879) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:57, ampduState:wait operational[0m
+[0;32mI (889) wifi:ifidx:0, rssi:-40, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (899) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (919) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (929) wifi:security: WPA2-PSK, phy:bgn, rssi:-40, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (929) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (929) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (939) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (949) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (959) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (969) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1019) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1019) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;33mW (1059) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (2059) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2059) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2059) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2069) main_task: Returned from app_main()[0m
+[0;33mW (2359) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835ca0  GP      : 0x40818764  
+TP      : 0x40835f10  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x408269bc  A0      : 0x0fe6c848  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x408269b0  S3      : 0x00000064  
+S4      : 0x408269c8  S5      : 0x408269d4  S6      : 0x408269ac  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cc4  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (789) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd2153a00, min.avgNF:0xce->0xd2(dB), RCalCount:0x153, min.RRssi:0xa00(-96.00)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (819) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (869) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (869) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (869) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (879) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (879) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (879) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (889) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (899) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (899) wifi:(trc)phytype:CBW20-SGI, snr:55, maxRate:144, highestRateIdx:0[0m
+[0;33mW (909) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (919) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:55, ampduState:wait operational[0m
+[0;32mI (929) wifi:ifidx:0, rssi:-42, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (939) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (959) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (959) wifi:security: WPA2-PSK, phy:bgn, rssi:-42, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (969) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (969) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (979) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (989) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (999) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1009) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (1019) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1029) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1079) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1079) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1179) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (2179) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2179) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2179) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2189) main_task: Returned from app_main()[0m
+[0;33mW (2399) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40825bc0  A0      : 0xcdf78930  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40825bb4  S3      : 0x00000064  
+S4      : 0x40825bcc  S5      : 0x40825bd8  S6      : 0x40825bb0  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cc7  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd20459f2, min.avgNF:0xce->0xd2(dB), RCalCount:0x45, min.RRssi:0x9f2(-96.88)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (849) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (849) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (849) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (859) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (869) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (869) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (879) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (889) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (889) wifi:(trc)phytype:CBW20-SGI, snr:57, maxRate:144, highestRateIdx:0[0m
+[0;33mW (899) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (899) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:57, ampduState:wait operational[0m
+[0;32mI (919) wifi:ifidx:0, rssi:-40, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (929) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (949) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (949) wifi:security: WPA2-PSK, phy:bgn, rssi:-40, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (949) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (959) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (969) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (969) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (999) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1019) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1049) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1049) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1079) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (2089) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2089) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2089) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2099) main_task: Returned from app_main()[0m
+[0;33mW (2289) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835ca0  GP      : 0x40818764  
+TP      : 0x40835f10  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40826530  A0      : 0x8c467810  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40826524  S3      : 0x00000064  
+S4      : 0x4082653c  S5      : 0x40826548  S6      : 0x40826520  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cca  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (519) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (548) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd2017a0c, min.avgNF:0xce->0xd2(dB), RCalCount:0x17, min.RRssi:0xa0c(-95.25)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (829) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (829) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (839) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (839) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (849) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (849) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (859) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (869) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (869) wifi:(trc)phytype:CBW20-SGI, snr:56, maxRate:144, highestRateIdx:0[0m
+[0;33mW (879) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (889) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:56, ampduState:wait operational[0m
+[0;32mI (899) wifi:ifidx:0, rssi:-41, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (909) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (929) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (929) wifi:security: WPA2-PSK, phy:bgn, rssi:-41, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (939) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (939) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (949) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (959) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (969) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;33mW (999) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2069) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2069) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2069) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2079) main_task: Returned from app_main()[0m
+[0;33mW (2169) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40826360  A0      : 0x4e126468  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40826354  S3      : 0x00000064  
+S4      : 0x4082636c  S5      : 0x40826378  S6      : 0x40826350  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cce  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (789) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd219e96a, min.avgNF:0xce->0xd2(dB), RCalCount:0x19e, min.RRssi:0x96a(-105.38)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (819) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (859) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (859) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (859) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (869) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (879) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (879) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (889) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (889) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (899) wifi:(trc)phytype:CBW20-SGI, snr:56, maxRate:144, highestRateIdx:0[0m
+[0;33mW (899) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (909) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:56, ampduState:wait operational[0m
+[0;32mI (919) wifi:ifidx:0, rssi:-41, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (929) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (959) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (959) wifi:security: WPA2-PSK, phy:bgn, rssi:-41, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (969) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (969) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (979) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (989) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1009) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (1019) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1049) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1049) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1059) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1089) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (1159) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2089) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2089) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2089) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2099) main_task: Returned from app_main()[0m
+[0;33mW (2289) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835ca0  GP      : 0x40818764  
+TP      : 0x40835f10  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40836254  A0      : 0x2b328800  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40836248  S3      : 0x00000064  
+S4      : 0x40836260  S5      : 0x4083626c  S6      : 0x40836244  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cd1  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd20839fa, min.avgNF:0xce->0xd2(dB), RCalCount:0x83, min.RRssi:0x9fa(-96.38)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (829) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (829) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (829) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (839) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (849) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (849) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (859) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (869) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (869) wifi:(trc)phytype:CBW20-SGI, snr:55, maxRate:144, highestRateIdx:0[0m
+[0;33mW (879) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (879) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:55, ampduState:wait operational[0m
+[0;32mI (899) wifi:ifidx:0, rssi:-42, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (909) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (929) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (929) wifi:security: WPA2-PSK, phy:bgn, rssi:-42, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (929) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (939) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (949) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (959) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (959) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (969) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1019) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;33mW (1049) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (2239) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2239) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2239) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2249) main_task: Returned from app_main()[0m
+[0;33mW (2269) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835ca0  GP      : 0x40818764  
+TP      : 0x40835f10  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x408267d4  A0      : 0xeec5fd88  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x408267c8  S3      : 0x00000064  
+S4      : 0x408267e0  S5      : 0x408267ec  S6      : 0x408267c4  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cd4  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;32mI (779) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;33mW (879) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (879) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (889) wifi:(agc)0x600a7128:0xd208da00, min.avgNF:0xce->0xd2(dB), RCalCount:0x8d, min.RRssi:0xa00(-96.00)[0m
+[0;32mI (899) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (909) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (909) wifi:enable tsf[0m
+[0;32mI (919) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (919) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (919) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (929) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (939) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (949) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (949) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (959) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (959) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (969) wifi:(trc)phytype:CBW20-SGI, snr:56, maxRate:144, highestRateIdx:0[0m
+[0;33mW (969) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (979) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:56, ampduState:wait operational[0m
+[0;32mI (989) wifi:ifidx:0, rssi:-41, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (999) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (1019) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (1019) wifi:security: WPA2-PSK, phy:bgn, rssi:-41, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (1029) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (1029) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (1039) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1049) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (1059) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1069) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (1079) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1089) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1119) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1119) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1129) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1139) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (2339) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2339) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2339) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2349) main_task: Returned from app_main()[0m
+[0;33mW (2879) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835a20  GP      : 0x40818764  
+TP      : 0x40835c90  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40825dac  A0      : 0xc9c4ac68  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40825da0  S3      : 0x00000064  
+S4      : 0x40825db8  S5      : 0x40825dc4  S6      : 0x40825d9c  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cd8  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (519) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (548) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd203f9f8, min.avgNF:0xce->0xd2(dB), RCalCount:0x3f, min.RRssi:0x9f8(-96.50)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (839) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (839) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (839) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (849) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (849) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (859) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (859) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (869) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (869) wifi:(trc)phytype:CBW20-SGI, snr:57, maxRate:144, highestRateIdx:0[0m
+[0;33mW (879) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (889) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:57, ampduState:wait operational[0m
+[0;32mI (899) wifi:ifidx:0, rssi:-40, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (909) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (929) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (929) wifi:security: WPA2-PSK, phy:bgn, rssi:-40, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (939) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (939) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (949) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (959) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (969) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (999) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1049) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (2249) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2249) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2249) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2259) main_task: Returned from app_main()[0m
+[0;33mW (2809) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x408269b8  A0      : 0xdb6bf8a8  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x408269ac  S3      : 0x00000064  
+S4      : 0x408269c4  S5      : 0x408269d0  S6      : 0x408269a8  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000cdc  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (457) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (514) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (789) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd2071a02, min.avgNF:0xce->0xd2(dB), RCalCount:0x71, min.RRssi:0xa02(-95.88)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (819) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (3229) wifi_station_netif: retry to connect to the AP[0m
+[0;32mI (3229) wifi_station_netif: connect to the AP fail[0m
+[0;32mI (3239) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3239) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (3249) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3299) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3319) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (3319) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (3329) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (3329) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3339) wifi:(trc)phytype:CBW20-SGI, snr:57, maxRate:144, highestRateIdx:0[0m
+[0;33mW (3339) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (3349) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:57, ampduState:wait operational[0m
+[0;32mI (3359) wifi:ifidx:0, rssi:-39, nf:-96, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (3369) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (3409) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (3409) wifi:security: WPA2-PSK, phy:bgn, rssi:-39, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (3419) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (3419) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (3429) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3439) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (3449) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (3459) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (3469) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;33mW (3509) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (3509) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (3519) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (3529) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;33mW (4029) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+[0;32mI (4629) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (4629) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (4629) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (4639) main_task: Returned from app_main()[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835d30  GP      : 0x40818764  
+TP      : 0x40835fa0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x408265d8  A0      : 0x5055b338  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x408265cc  S3      : 0x00000064  
+S4      : 0x408265e4  S5      : 0x408265f0  S6      : 0x408265c8  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000ce2  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (480) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (789) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd215c9f0, min.avgNF:0xce->0xd2(dB), RCalCount:0x15c, min.RRssi:0x9f0(-97.00)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (809) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (819) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (839) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (849) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (849) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (859) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (859) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (859) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (869) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (879) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (879) wifi:(trc)phytype:CBW20-SGI, snr:56, maxRate:144, highestRateIdx:0[0m
+[0;33mW (889) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (899) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:56, ampduState:wait operational[0m
+[0;32mI (909) wifi:ifidx:0, rssi:-41, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (919) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (939) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (939) wifi:security: WPA2-PSK, phy:bgn, rssi:-41, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (949) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (949) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (959) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (969) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (989) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (999) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (1009) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1039) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1049) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1069) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:1, win:64, cur_ssn:1), CONF:0xc0000005[0m
+[0;32mI (2079) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2079) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2079) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2089) main_task: Returned from app_main()[0m
+[0;33mW (2379) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Guru Meditation Error: Core  0 panic'ed (Illegal instruction). Exception was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4201aaa2  RA      : 0x4201a9fa  SP      : 0x40835c60  GP      : 0x40818764  
+TP      : 0x40835ed0  T0      : 0x40030dca  T1      : 0x0000000c  T2      : 0x00000000  
+S0/FP   : 0x4081d6c8  S1      : 0x40826840  A0      : 0x3f461c80  A1      : 0x00001000  
+A2      : 0x00001000  A3      : 0x00000001  A4      : 0xffffffff  A5      : 0x00000001  
+A6      : 0x00000000  A7      : 0xf4240000  S2      : 0x40826834  S3      : 0x00000064  
+S4      : 0x4082684c  S5      : 0x40826858  S6      : 0x40826830  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000ce6  T4      : 0x00000000  T5      : 0x00011200  T6      : 0x00010003  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0xd009f7d3  
+MHARTID : 0x00000000  
+
+add symbol table from file "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf"
+0x4201aaa2 in rmw_wait ()
+#0  0x4201aaa2 in rmw_wait ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 519cfbf59
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875730,len:0x175c
+load:0x4086b910,len:0xeac
+load:0x4086e610,len:0x3184
+entry 0x4086b91a
+[0;32mI (22) boot: ESP-IDF v6.0-dev-2273-g166269fb93 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Sep 25 2025 12:07:20[0m
+[0;32mI (24) boot: chip revision: v0.1[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32c6: SPI Flash Size : 4MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=420b0020 size=1defch (122620) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=0002df24 vaddr=40800000 size=020f4h (  8436) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=00030020 vaddr=42000020 size=abfa4h (704420) map[0m
+[0;32mI (400) esp_image: segment 3: paddr=000dbfcc vaddr=408020f4 size=15e64h ( 89700) load[0m
+[0;32mI (439) esp_image: segment 4: paddr=000f1e38 vaddr=40817f60 size=03ba4h ( 15268) load[0m
+[0;32mI (458) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (458) boot: Disabling RNG early entropy source...[0m
+[0;32mI (468) cpu_start: Unicore app[0m
+[0;32mI (477) cpu_start: GPIO 17 and 16 are used as console UART I/O pins[0m
+[0;32mI (478) cpu_start: Pro cpu start user code[0m
+[0;32mI (478) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (479) app_init: Application information:[0m
+[0;32mI (483) app_init: Project name:     esp32try5[0m
+[0;32mI (487) app_init: App version:      a29fdb27-dirty[0m
+[0;32mI (492) app_init: Compile time:     Sep 25 2025 12:36:50[0m
+[0;32mI (497) app_init: ELF file SHA256:  519cfbf59...[0m
+[0;32mI (501) app_init: ESP-IDF:          v6.0-dev-2273-g166269fb93[0m
+[0;32mI (507) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (511) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (515) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (518) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (525) heap_init: At 40823AF0 len 00058B20 (354 KiB): RAM[0m
+[0;32mI (530) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (535) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;32mI (547) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (553) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (560) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (564) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (569) main_task: Started on CPU0[0m
+[0;32mI (569) main_task: Calling app_main()[0m
+[0;32mI (579) wifi_station_netif: ESP_WIFI_MODE_STA[0m
+[0;32mI (579) pp: pp rom version: 5b8dcfa[0m
+[0;32mI (579) net80211: net80211 rom version: 5b8dcfa[0m
+[0;32mI (589) wifi:wifi driver task: 40829e60, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: df85326[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formatting: disabled[0m
+[0;32mI (599) wifi:mac_version:HAL_MAC_ESP32AX_761,ut_version:N, band mode:0x1[0m
+[0;32mI (609) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (619) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (629) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (629) wifi:Init static rx buffer size: 1700 (rxctrl:92, csi:512)[0m
+[0;32mI (639) wifi:Init static rx buffer num: 10[0m
+[0;32mI (639) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (649) wifi_init: rx ba win: 6[0m
+[0;32mI (649) wifi_init: accept mbox: 6[0m
+[0;32mI (649) wifi_init: tcpip mbox: 32[0m
+[0;32mI (649) wifi_init: udp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp mbox: 6[0m
+[0;32mI (659) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (669) wifi_init: tcp mss: 1440[0m
+[0;32mI (669) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (679) wifi_init: WiFi SLP IRAM OP enabled[0m
+[0;33mW (679) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (689) phy_init: phy_version 341,a6c8fe6,Jul 30 2025,18:34:11[0m
+[0;33mW (779) wifi:ACK_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (779) wifi:CTS_TAB0   :0x   90a0b, QAM16:0x9 (24Mbps), QPSK:0xa (12Mbps), BPSK:0xb (6Mbps)[0m
+[0;33mW (789) wifi:(agc)0x600a7128:0xd21d1a02, min.avgNF:0xce->0xd2(dB), RCalCount:0x1d1, min.RRssi:0xa02(-95.88)[0m
+[0;32mI (799) wifi:11ax coex: WDEVAX_PTI0(0x55777555), WDEVAX_PTI1(0x00003377).[0m
+
+[0;32mI (799) wifi:mode : sta (40:4c:ca:5c:f2:48)[0m
+[0;32mI (809) wifi:enable tsf[0m
+[0;32mI (809) wifi_station_netif: wifi_init_sta finished.[0m
+[0;32mI (829) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (829) wifi:(connect)dot11_authmode:0x3, pairwise_cipher:0x3, group_cipher:0x3[0m
+[0;32mI (829) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (839) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (839) wifi:(assoc)RESP, Extended Capabilities length:8, operating_mode_notification:0[0m
+[0;32mI (839) wifi:(assoc)RESP, Extended Capabilities, MBSSID:0, TWT Responder:0, OBSS Narrow Bandwidth RU In OFDMA Tolerance:0[0m
+[0;32mI (859) wifi:Extended Capabilities length:8, operating_mode_notification:1[0m
+[0;32mI (859) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (869) wifi:(trc)phytype:CBW20-SGI, snr:58, maxRate:144, highestRateIdx:0[0m
+[0;33mW (869) wifi:(trc)band:2G, phymode:3, highestRateIdx:0, lowestRateIdx:11, dataSchedTableSize:14[0m
+[0;32mI (879) wifi:(trc)band:2G, rate(S-MCS7, rateIdx:0), ampdu(rate:S-MCS7, schedIdx(0, stop:8)), snr:58, ampduState:wait operational[0m
+[0;32mI (889) wifi:ifidx:0, rssi:-39, nf:-97, phytype(0x3, CBW20-SGI), phymode(0x3, 11bgn), max_rate:144, he:0, vht:0, ht:1[0m
+[0;32mI (899) wifi:(ht)max.RxAMPDULenExponent:3(65535 bytes), MMSS:6(8 us)[0m
+[0;32mI (919) wifi:connected with Mate, aid = 3, channel 11, BW20, bssid = 9e:c8:4b:ad:b5:2f[0m
+[0;32mI (919) wifi:security: WPA2-PSK, phy:bgn, rssi:-39, cipher(pairwise:0x3, group:0x3), pmf:0, [0m
+[0;32mI (929) wifi:pm start, type: 1, twt_start:0[0m
+
+[0;32mI (929) wifi:pm start, type:1, aid:0x3, trans-BSSID:9e:c8:4b:ad:b5:2f, BSSID[5]:0x2f, mbssid(max-indicator:0, index:0), he:0[0m
+[0;32mI (939) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (949) wifi:set rx beacon pti, rx_bcn_pti: 10, bcn_timeout: 25000, mt_pti: 10, mt_time: 10000[0m
+[0;32mI (959) wifi:[ADDBA]TX addba request, tid:0, dialogtoken:1, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (969) wifi:[ADDBA]TX addba request, tid:7, dialogtoken:2, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x20)[0m
+[0;32mI (979) wifi:[ADDBA]TX addba request, tid:5, dialogtoken:3, bufsize:64, A-MSDU:0(not supported), policy:1(IMR), ssn:0(0x0)[0m
+[0;32mI (989) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1019) wifi:[ADDBA]RX addba response, status:0, tid:0/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1019) wifi:[ADDBA]RX addba response, status:0, tid:7/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;32mI (1029) wifi:[ADDBA]RX addba response, status:0, tid:5/tb:1(0xa1), bufsize:64, batimeout:0, txa_wnd:64[0m
+[0;33mW (1039) wifi:<ba-add>idx:0, ifx:0, tid:0, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:0, win:64, cur_ssn:0), CONF:0xc0000005[0m
+[0;32mI (2139) esp_netif_handlers: sta ip: 192.168.137.117, mask: 255.255.255.0, gw: 192.168.137.1[0m
+[0;32mI (2139) wifi_station_netif: got ip:192.168.137.117[0m
+[0;32mI (2139) wifi_station_netif: connected to ap SSID:Mate password:12345678[0m
+[0;32mI (2149) main_task: Returned from app_main()[0m
+[0;33mW (2789) wifi:<ba-add>idx:1, ifx:0, tid:6, TAHI:0x1002fb5, TALO:0xad4bc89e, (ssn:2, win:64, cur_ssn:2), CONF:0xc0006005[0m
+Failed status on line 76: 1. Aborting.

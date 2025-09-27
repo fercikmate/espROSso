@@ -1,0 +1,8 @@
+Command: /home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python /home/fercikmate/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c6 --revision 0 --decode-panic backtrace /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/esp32try5.elf /home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build/bootloader/bootloader.elf -m '/home/fercikmate/.espressif/python_env/idf6.0_py3.10_env/bin/python' '/home/fercikmate/esp/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.8.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x400294ae: [0;33muart_hal_get_txfifo_count[0m[0m in [0;32mROM[0m
+[0m--- 0x4086b910: [0;33mesp_bootloader_get_description[0m[0m at [0;32m/home/fercikmate/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c[0m[0m:[1;31m40[0m
+[0m--- 0x4086e610: [0;33mesp_flash_encryption_enabled[0m[0m at [0;32m/home/fercikmate/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c[0m[0m:[1;31m89[0m
+[0m--- 0x4086b91a: [0;33mcall_start_cpu0[0m[0m at [0;32m/home/fercikmate/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m
