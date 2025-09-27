@@ -2,8 +2,8 @@
 C firmware converting ROS 2 Twist messages to PWM signals for motor and servo control via microros on ESP32-C6-zero MCU. 
 
 # Project Summary and Implementation Attempts
-    The goal of this project was to run micro-ROS on the ESP32-C6-zero MCU, converting ROS 2 Twist messages into PWM signals for motor and servo control, using multiple development environments and toolchains.
-    Several approaches were attempted, combining different operating systems, build tools, and micro-ROS integration methods.
+The goal of this project was to run micro-ROS on the ESP32-C6-zero MCU, converting ROS 2 Twist messages into PWM signals for motor and servo control, using multiple development environments and toolchains.
+Several approaches were attempted, combining different operating systems, build tools, and micro-ROS integration methods.
     
 ## Environments, approaches and results
 1. Windows 10
