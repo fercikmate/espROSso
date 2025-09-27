@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32try5",
-    "project_version":    "4e2b2797-dirty",
+    "project_version":    "a29fdb27-dirty",
     "project_path":       "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT",
     "idf_path":           "/home/fercikmate/esp/esp-idf",
     "build_dir":          "/home/fercikmate/ftn/osurv/espROSso/ESP_PROJECT/build",
