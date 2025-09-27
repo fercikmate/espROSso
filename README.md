@@ -17,7 +17,7 @@ Several approaches were attempted, combining different operating systems, build 
 - 2.3 micro_ros_espidf_component
         https://github.com/micro-ROS/micro_ros_espidf_component
         This was the closest to success. The firmware built and flashed successfully, and the int32_publisher example ran, with the MCU successfully connecting to the agent over 2.4 GHz Wi-Fi. However, the subscriber example consistently triggered a Guru Meditation Error during task execution. See more at https://stackoverflow.com/questions/79771649/esp32-c6-micro-ros-guru-meditation-error-core-0-panic-illegal-instruction-in
-3. VirtualBox(Ubuntu 22.04)
+3. VirtualBox/Native linux(Ubuntu 22.04)
 - 3.1 platformio
             PlatformIO’s ESP32 platform is designed for standard ESP32 chips. Tried out pioarduino (https://github.com/pioarduino/platform-espressif32) but build didnt work
 - 3.2 micro_ros_espidf_component
@@ -93,7 +93,7 @@ sudo docker run -it --rm   -v $(pwd):/project   --env MICROROS_LIBRARY_FOLDER=ex
 Rebuilding the micro-ROS Arduino static library for an unsupported board (ESP32-C6) is not straightforward with only the public repositories. The Docker image expects a `library_generation.sh` and metadata from the private `micro_ros_static_library` repository. Without those, it will not generate a full Arduino-compatible package.
 
 Currently, micro-ROS libraries primarily support standard ESP32, not the next-generation ESP32-C6 MCU.
-Despite multiple attempts across Windows, WSL2, and VirtualBox, a fully functional micro-ROS application on the ESP32-C6-zero could not be achieved. The closest approach was using ESP-IDF with micro_ros_espidf_component, which successfully built and flashed firmware, but runtime execution always resulted in a Guru Meditation Error.
+Despite multiple attempts across Windows, WSL2, and VirtualBox, and native linux a fully functional micro-ROS application on the ESP32-C6-zero could not be achieved. The closest approach was using ESP-IDF with micro_ros_espidf_component, which successfully built and flashed firmware, but runtime execution always resulted in a Guru Meditation Error.
 
 # Recommendations Next Steps:
 1. Use a fully supported MCU target for micro-ROS
